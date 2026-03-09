@@ -15,5 +15,74 @@
             "title": "Level Up!",
             "description": "%s has reached level %d!"
         }
+    },
+    "economy": {
+        "daily": {
+            "title": "Daily Reward",
+            "claimed": "You claimed your daily reward of %s %s!",
+            "streak": "🔥 %d day streak! Bonus: +%s",
+            "cooldown": "You already claimed today. Come back in %s."
+        },
+        "work": {
+            "title": "Work Complete",
+            "earned": "You earned %s %s from working!",
+            "cooldown": "You need to rest. Try again in %s."
+        },
+        "balance": {
+            "title": "%s's Balance",
+            "cash": "Cash",
+            "bank": "Bank",
+            "total": "Total"
+        },
+        "transfer": {
+            "title": "Transfer Complete",
+            "success": "Sent %s %s to %s (tax: %s%%)",
+            "insufficient": "You don't have enough funds.",
+            "self": "You can't transfer to yourself."
+        }
+    },
+    "moderation": {
+        "kick": {
+            "title": "Member Kicked",
+            "description": "%s has been kicked by %s.",
+            "reason": "Reason: %s",
+            "dm": "You have been kicked from %s."
+        },
+        "ban": {
+            "title": "Member Banned",
+            "description": "%s has been banned by %s.",
+            "reason": "Reason: %s",
+            "dm": "You have been banned from %s."
+        },
+        "warn": {
+            "title": "Warning Issued",
+            "description": "%s has been warned by %s.",
+            "reason": "Reason: %s",
+            "dm": "You received a warning in %s."
+        },
+        "timeout": {
+            "title": "Member Timed Out",
+            "description": "%s has been timed out for %s.",
+            "reason": "Reason: %s"
+        }
+    },
+    "general": {
+        "error": {
+            "title": "Error",
+            "unknown": "An unexpected error occurred.",
+            "no_permission": "You don't have permission to do this.",
+            "not_found": "The requested item was not found.",
+            "cooldown": "Please wait %s before using this again."
+        },
+        "help": {
+            "title": "Help — %s",
+            "description": "Here are all available commands.",
+            "footer": "Use /%s help for more info on a command."
+        },
+        "ping": {
+            "title": "Pong!",
+            "latency": "Latency: %dms",
+            "api": "API: %dms"
+        }
     }
 }
