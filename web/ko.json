@@ -1,0 +1,200 @@
+{
+  "common": {
+    "features": "기능",
+    "loading": "로딩 중...",
+    "login": "Discord로 로그인",
+    "logout": "로그아웃",
+    "pricing": "가격",
+    "save": "저장",
+    "cancel": "취소",
+    "delete": "삭제",
+    "edit": "편집",
+    "back": "뒤로"
+  },
+  "dashboard": {
+    "addBot": "봇 추가",
+    "botActive": "봇 활성",
+    "freePlan": "무료 플랜",
+    "goPremium": "프리미엄으로",
+    "manage": "관리",
+    "noServers": "서버를 찾을 수 없습니다",
+    "premium": "프리미엄",
+    "premiumDesc": "모든 모듈과 커스텀 봇 기능을 잠금 해제하세요.",
+    "servers": "내 서버",
+    "serversSubtitle": "서버를 선택하여 모듈과 설정을 관리하세요.",
+    "translate": "번역",
+    "upgrade": "업그레이드 — $7.99/월",
+    "plugins": {
+      "searchPlaceholder": "플러그인 검색...",
+      "categories": {
+        "all": "모든 플러그인",
+        "moderation": "관리",
+        "engagement": "참여",
+        "utility": "유틸리티"
+      },
+      "stats": {
+        "active": "활성",
+        "available": "사용 가능",
+        "premium": "프리미엄"
+      },
+      "noResults": "\"{query}\"에 맞는 플러그인을 찾을 수 없습니다",
+      "clearFilters": "필터 초기화",
+      "new": "NEW",
+      "modules": {
+        "welcome": {
+          "title": "환영",
+          "desc": "맞춤 메시지로 새 멤버를 환영하고 역할을 부여합니다."
+        },
+        "leveling": {
+          "title": "레벨 & XP",
+          "desc": "활발한 멤버에게 XP, 레벨, 역할 보상을."
+        },
+        "moderation": {
+          "title": "자동 관리자",
+          "desc": "스팸, 레이드, 유해 콘텐츠를 자동으로 감지하고 제거합니다."
+        },
+        "reaction_roles": {
+          "title": "리액션 역할",
+          "desc": "메시지에 리액션하여 역할을 자체 할당합니다."
+        },
+        "translate": {
+          "title": "번역 포털",
+          "desc": "서버 콘텐츠를 여러 언어로 관리하고 번역합니다."
+        },
+        "voicemaster": {
+          "title": "VoiceMaster",
+          "desc": "트리거 채널에 참여하면 임시 음성 채널을 자동 생성합니다."
+        },
+        "commands": {
+          "title": "커스텀 명령어",
+          "desc": "변수와 임베드가 포함된 강력한 커스텀 명령어를 만드세요."
+        },
+        "music": {
+          "title": "뮤직 플레이어",
+          "desc": "YouTube, Spotify, SoundCloud에서 음성 채널로 음악을 재생합니다."
+        },
+        "tickets": {
+          "title": "티켓",
+          "desc": "카테고리와 자동 닫기가 있는 지원 티켓 시스템을 만드세요."
+        }
+      }
+    },
+    "voicemaster": {
+      "title": "VoiceMaster",
+      "subtitle": "임시 음성 채널 자동 생성",
+      "addSetup": "설정 추가",
+      "howItWorks": "작동 방식",
+      "step1": "서버에 음성 채널을 만드세요 (예: \"➕ 참여하여 생성\")",
+      "step2": "아래에서 트리거 채널로 선택하세요",
+      "step3": "사용자가 해당 채널에 참여 → 봇이 임시 채널을 만들어 이동시킵니다",
+      "step4": "임시 채널이 비면 → 봇이 자동으로 삭제합니다",
+      "newSetupTitle": "새 트리거 채널 설정",
+      "triggerChannel": "트리거 음성 채널",
+      "selectChannel": "음성 채널 선택...",
+      "categoryLabel": "채널 생성 위치 (카테고리)",
+      "sameAsTrigger": "트리거 채널과 동일",
+      "nameTemplate": "채널 이름 템플릿",
+      "preview": "미리보기",
+      "userLimit": "사용자 제한",
+      "unlimited": "0 = 무제한",
+      "bitrate": "비트레이트 (kbps)",
+      "createSetup": "설정 생성",
+      "creating": "생성 중...",
+      "noSetups": "아직 트리거 채널이 설정되지 않았습니다.",
+      "noSetupsHint": "\"설정 추가\"를 클릭하여 시작하세요.",
+      "templateVars": "템플릿 변수",
+      "varUser": "사용자 이름",
+      "varCount": "순번",
+      "templateLabel": "템플릿",
+      "categoryDetailLabel": "카테고리",
+      "limitLabel": "제한",
+      "failedCreate": "설정 생성에 실패했습니다",
+      "failedDelete": "설정 삭제에 실패했습니다",
+      "failedUpdate": "설정 업데이트에 실패했습니다"
+    }
+  },
+  "features": {
+    "commands": {
+      "desc": "임베드와 액션이 포함된 맞춤 명령어를 만드세요.",
+      "title": "커스텀 명령어"
+    },
+    "leveling": {
+      "desc": "활발한 멤버에게 XP, 레벨, 역할 보상을.",
+      "title": "레벨링 시스템"
+    },
+    "moderation": {
+      "desc": "자동 관리, 밴, 킥, 뮤트, 경고 — 서버를 안전하게.",
+      "title": "관리"
+    },
+    "roles": {
+      "desc": "이모지 리액션으로 멤버가 역할을 선택할 수 있습니다.",
+      "title": "리액션 역할"
+    },
+    "tickets": {
+      "desc": "커뮤니티를 위한 전문적인 지원 티켓.",
+      "title": "티켓 시스템"
+    },
+    "welcome": {
+      "desc": "맞춤 메시지로 새 멤버를 환영하고 자동으로 역할을 부여합니다.",
+      "title": "환영 & 작별"
+    }
+  },
+  "landing": {
+    "badge": "차세대 Discord 봇 플랫폼",
+    "ctaButton": "무료로 시작하기",
+    "ctaHighlight": "슈퍼차지",
+    "ctaPrimary": "무료로 시작하기",
+    "ctaSecondary": "더 알아보기",
+    "ctaSubtitle": "이미 수천 개의 서버가 Hubdustry를 사용하고 있습니다.",
+    "ctaTitle": "<highlight>슈퍼차지</highlight> 할 준비가 되셨나요?",
+    "featuresSubtitle": "19개 이상의 모듈, 하나의 봇. 간단하고 강력합니다.",
+    "featuresTitle": "서버에 필요한 모든 것",
+    "footer": "© 2026 Hubdustry. All rights reserved.",
+    "heroHighlight": "슈퍼차지",
+    "heroSubtitle": "레벨링, 관리, 환영 메시지, 리액션 역할 등 15개 이상의 모듈 — 하나의 강력한 봇으로.",
+    "heroTitle": "당신의 Discord 서버를",
+    "stats": {
+      "modules": "모듈",
+      "servers": "서버",
+      "uptime": "가동 시간",
+      "users": "사용자"
+    },
+    "highlightFree": "영원히 무료",
+    "highlightSetup": "5분 설정",
+    "highlightLang": "17개 언어",
+    "whyTitle": "Hubdustry를 선택하는 이유",
+    "whySubtitle": "중요한 커뮤니티를 위해. 복잡함 없이 강력한 모듈만.",
+    "why1Title": "올인원",
+    "why1Desc": "5개 이상의 봇을 하나로 대체",
+    "why2Title": "설정 불필요",
+    "why2Desc": "바로 작동, 나중에 커스터마이징",
+    "why3Title": "항상 온라인",
+    "why3Desc": "99.9% 가동률, 글로벌 분산"
+  },
+  "translate": {
+    "approved": "승인됨",
+    "backToLanguages": "언어 목록으로",
+    "by": "by",
+    "clickToTranslate": "클릭하여 번역...",
+    "ctrlEnter": "Ctrl+Enter로 저장 & 다음",
+    "editingLanguage": "번역 중",
+    "filter_all": "전체",
+    "filter_approved": "승인됨",
+    "filter_pending": "대기 중",
+    "filter_reviewed": "검토됨",
+    "filter_stale": "오래됨",
+    "filter_untranslated": "미번역",
+    "languages": "언어",
+    "leaderboard": "리더보드",
+    "noContributors": "첫 번째 기여자가 되어보세요!",
+    "noKeys": "번역 키를 찾을 수 없습니다.",
+    "noLanguages": "아직 언어가 없습니다.",
+    "saveNext": "저장 & 다음",
+    "searchKeys": "키 검색...",
+    "stale": "업데이트 필요",
+    "subtitle": "Hubdustry를 당신의 언어로 번역하고 XP를 얻으세요!",
+    "title": "번역 포털",
+    "translated": "번역됨",
+    "translations": "번역"
+  }
+}

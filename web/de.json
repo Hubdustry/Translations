@@ -1,0 +1,349 @@
+{
+  "common": {
+    "login": "Login with Discord",
+    "logout": "Logout",
+    "loading": "Loading...",
+    "features": "Features",
+    "pricing": "Pricing",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "back": "Back"
+  },
+  "landing": {
+    "badge": "The Next-Gen Discord Bot Platform",
+    "heroTitle": "Your Discord Server,",
+    "heroHighlight": "Supercharged",
+    "heroSubtitle": "Leveling, moderation, welcome messages, reaction roles, and 15+ more modules — all from one powerful bot.",
+    "ctaPrimary": "Get Started — Free",
+    "ctaSecondary": "Learn More",
+    "featuresTitle": "Everything Your Server Needs",
+    "featuresSubtitle": "19+ powerful modules, one bot. No bloat, no complexity.",
+    "ctaTitle": "Ready to <highlight>Supercharge</highlight> your server?",
+    "ctaHighlight": "Supercharge",
+    "ctaSubtitle": "Join thousands of servers already using Hubdustry. Free forever.",
+    "ctaButton": "Get Started — It's Free",
+    "footer": "© 2026 Hubdustry. All rights reserved.",
+    "stats": {
+      "servers": "Servers",
+      "users": "Users",
+      "modules": "Modules",
+      "uptime": "Uptime"
+    },
+    "highlightFree": "Free forever",
+    "highlightSetup": "5-minute setup",
+    "highlightLang": "17 languages",
+    "whyTitle": "Why Hubdustry?",
+    "whySubtitle": "Built for communities that matter. No bloat, no complexity — just powerful modules.",
+    "why1Title": "All-in-One",
+    "why1Desc": "Replace 5+ bots with a single solution",
+    "why2Title": "Zero Config",
+    "why2Desc": "Works out of the box, customize later",
+    "why3Title": "Always On",
+    "why3Desc": "99.9% uptime, globally distributed"
+  },
+  "features": {
+    "welcome": {
+      "title": "Welcome & Goodbye",
+      "desc": "Greet new members with custom messages and auto-assign roles."
+    },
+    "leveling": {
+      "title": "Leveling System",
+      "desc": "Reward active members with XP, levels, and role rewards."
+    },
+    "moderation": {
+      "title": "Moderation",
+      "desc": "Auto-mod, ban, kick, mute, warn — keep your server safe."
+    },
+    "commands": {
+      "title": "Custom Commands",
+      "desc": "Create personalized commands with embeds and actions."
+    },
+    "roles": {
+      "title": "Reaction Roles",
+      "desc": "Let members pick their own roles with emoji reactions."
+    },
+    "tickets": {
+      "title": "Ticket System",
+      "desc": "Professional support tickets for your community."
+    }
+  },
+  "dashboard": {
+    "servers": "Your Servers",
+    "serversSubtitle": "Select a server to manage its modules and settings.",
+    "botActive": "Bot Active",
+    "addBot": "Add Bot",
+    "manage": "Manage",
+    "noServers": "No servers found",
+    "premium": "Premium",
+    "freePlan": "Free Plan",
+    "goPremium": "Go Premium",
+    "premiumDesc": "Unlock all modules and Custom Bot features.",
+    "upgrade": "Upgrade — $7.99/mo",
+    "translate": "Translate",
+    "plugins": {
+      "searchPlaceholder": "Search plugins...",
+      "categories": {
+        "all": "All Plugins",
+        "moderation": "Moderation",
+        "engagement": "Engagement",
+        "utility": "Utility"
+      },
+      "stats": {
+        "active": "Active",
+        "available": "Available",
+        "premium": "Premium"
+      },
+      "noResults": "No plugins found matching \"{query}\"",
+      "clearFilters": "Clear filters",
+      "new": "NEW",
+      "modules": {
+        "welcome": {
+          "title": "Welcome",
+          "desc": "Greet new members with customizable messages and assign roles."
+        },
+        "leveling": {
+          "title": "Levels & XP",
+          "desc": "Reward active members with XP, levels and role rewards."
+        },
+        "moderation": {
+          "title": "Auto Moderator",
+          "desc": "Automatically detect and remove spam, raids and toxic content."
+        },
+        "reaction_roles": {
+          "title": "Reaction Roles",
+          "desc": "Let users self-assign roles by reacting to a message."
+        },
+        "translate": {
+          "title": "Translation Portal",
+          "desc": "Manage and translate server content into multiple languages."
+        },
+        "voicemaster": {
+          "title": "VoiceMaster",
+          "desc": "Auto-create temporary voice channels when users join a trigger channel."
+        },
+        "commands": {
+          "title": "Custom Commands",
+          "desc": "Create powerful custom commands with variables and embeds."
+        },
+        "music": {
+          "title": "Music Player",
+          "desc": "Play music from YouTube, Spotify and SoundCloud in voice channels."
+        },
+        "tickets": {
+          "title": "Tickets",
+          "desc": "Create a support ticket system with categories and auto-close."
+        }
+      }
+    },
+    "tabs": {
+      "overview": "Overview",
+      "analytics": "Analytics",
+      "activityLog": "Activity Log"
+    },
+    "hero": {
+      "serverDashboard": "Server Dashboard",
+      "online": "online",
+      "members": "members",
+      "pluginsActive": "{count} plugins active",
+      "invite": "Invite",
+      "logs": "Logs",
+      "discord": "Discord",
+      "boostLevel": "Level {level}",
+      "noBoost": "No Boost"
+    },
+    "emoji": {
+      "title": "Emoji",
+      "subtitle": "{count} emoji in this server",
+      "upload": "Upload Emoji",
+      "searchPlaceholder": "Search emoji...",
+      "noResults": "No emoji found",
+      "empty": "No custom emoji yet",
+      "emptyHint": "Upload emoji to get started"
+    },
+    "stickers": {
+      "title": "Stickers",
+      "subtitle": "{count} stickers in this server",
+      "upload": "Upload Sticker",
+      "searchPlaceholder": "Search stickers...",
+      "noResults": "No stickers found",
+      "empty": "No custom stickers yet",
+      "emptyHint": "Upload stickers to get started"
+    },
+    "soundboard": {
+      "title": "Soundboard",
+      "subtitle": "{count} sounds in this server",
+      "upload": "Upload Sound",
+      "searchPlaceholder": "Search sounds...",
+      "noResults": "No sounds found",
+      "empty": "No custom sounds yet",
+      "emptyHint": "Upload sounds to get started"
+    },
+    "expression": {
+      "tabEmoji": "Emoji",
+      "tabStickers": "Stickers",
+      "tabSoundboard": "Soundboard"
+    },
+    "logs": {
+      "title": "Server Logs",
+      "subtitle": "Comprehensive event logging — surpasses Discord's audit log.",
+      "searchPlaceholder": "Search logs...",
+      "allEvents": "All Events",
+      "totalEvents": "{count} total events",
+      "noEntries": "No log entries found.",
+      "pageOf": "Page {page} of {total}",
+      "prev": "Prev",
+      "next": "Next",
+      "by": "by",
+      "events": {
+        "message_edit": "Message Edited",
+        "message_delete": "Message Deleted",
+        "member_join": "Member Joined",
+        "member_leave": "Member Left",
+        "member_ban": "Member Banned",
+        "member_unban": "Member Unbanned",
+        "command_used": "Command Used",
+        "voice_join": "Voice Join",
+        "voice_leave": "Voice Leave",
+        "voice_move": "Voice Move",
+        "role_create": "Role Created",
+        "role_update": "Role Updated",
+        "role_delete": "Role Deleted",
+        "role_add": "Role Added",
+        "role_remove": "Role Removed",
+        "channel_create": "Channel Created",
+        "channel_update": "Channel Updated",
+        "channel_delete": "Channel Deleted",
+        "nickname_change": "Nickname Changed"
+      }
+    },
+    "analytics": {
+      "title": "Analytics",
+      "subtitle": "Real-time server insights — better than Discord Developer Portal.",
+      "loadingAnalytics": "Loading analytics...",
+      "noData": "No analytics data available yet.",
+      "membersToday": "Members Today",
+      "left": "left",
+      "messages": "Messages",
+      "today": "today",
+      "commands": "Commands",
+      "usedToday": "used today",
+      "voiceJoins": "Voice Joins",
+      "memberFlow": "Member Flow",
+      "joinsVsLeaves": "Joins vs Leaves",
+      "messageActivity": "Message Activity",
+      "messagesPerDay": "Messages per day",
+      "commandUsage": "Command Usage",
+      "commandsPerDay": "Commands per day",
+      "topCommands": "Top Commands",
+      "mostUsed": "Most used in the last {days} days",
+      "noCommandsUsed": "No commands used yet",
+      "uses": "uses",
+      "moderationCases": "{count} Moderation Cases",
+      "moderationDesc": "Total warnings, bans, and kicks on record",
+      "totalMembers": "Total Members",
+      "joined": "joined",
+      "messagesLabel": "messages",
+      "executed": "executed",
+      "memberGrowth": "Member Growth",
+      "memberGrowthSub": "Joins vs Leaves · 7 day trend",
+      "viewFullLog": "View Full Activity Log",
+      "activityLog": "Activity Log",
+      "events": "{count} events",
+      "noActivity": "No activity recorded yet."
+    },
+    "overview": {
+      "quickStats": "Quick Stats",
+      "activePlugins": "Active Plugins",
+      "viewAll": "View All",
+      "enabledOf": "{enabled} of {total}",
+      "noPlugins": "No plugins enabled yet.",
+      "serverHealth": "Server Health",
+      "recentActivity": "Recent Activity",
+      "members": "Members",
+      "messages": "Messages",
+      "commands": "Commands",
+      "today": "today",
+      "memberFlow": "Member Flow",
+      "joinsVsLeaves": "Joins vs Leaves · 7 days",
+      "joins": "Joins",
+      "leaves": "Leaves",
+      "topCommands": "Top Commands",
+      "liveActivity": "Live Activity",
+      "noActivityYet": "No activity yet. Events appear here once the bot is active.",
+      "managePlugins": "Manage Plugins",
+      "enableSome": "No plugins active. Enable some →"
+    },
+    "error": {
+      "title": "Something went wrong",
+      "description": "An unexpected error occurred while loading the dashboard. Please try again.",
+      "errorId": "Error ID: {id}",
+      "tryAgain": "Try again"
+    },
+    "notFound": {
+      "title": "Guild not found",
+      "description": "This server doesn't exist or you don't have access to it.",
+      "backToServers": "Back to servers"
+    },
+    "voicemaster": {
+      "title": "VoiceMaster",
+      "subtitle": "Auto-create temporary voice channels",
+      "addSetup": "Add Setup",
+      "howItWorks": "How it works",
+      "step1": "Create a voice channel in your server (e.g., \"➕ Join to Create\")",
+      "step2": "Select it as a trigger channel below",
+      "step3": "When users join that channel → bot creates a temp channel and moves them in",
+      "step4": "When the temp channel is empty → bot auto-deletes it",
+      "newSetupTitle": "New Trigger Channel Setup",
+      "triggerChannel": "Trigger Voice Channel",
+      "selectChannel": "Select a voice channel...",
+      "categoryLabel": "Create Channels In (Category)",
+      "sameAsTrigger": "Same as trigger channel",
+      "nameTemplate": "Channel Name Template",
+      "preview": "Preview",
+      "userLimit": "User Limit",
+      "unlimited": "0 = unlimited",
+      "bitrate": "Bitrate (kbps)",
+      "createSetup": "Create Setup",
+      "creating": "Creating...",
+      "noSetups": "No trigger channels set up yet.",
+      "noSetupsHint": "Click \"Add Setup\" to get started.",
+      "templateVars": "Template Variables",
+      "varUser": "Username",
+      "varCount": "Sequential number",
+      "templateLabel": "Template",
+      "categoryDetailLabel": "Category",
+      "limitLabel": "Limit",
+      "failedCreate": "Failed to create setup",
+      "failedDelete": "Failed to delete setup",
+      "failedUpdate": "Failed to update setup"
+    }
+  },
+  "translate": {
+    "title": "Translation Portal",
+    "subtitle": "Help translate Hubdustry into your language and earn XP!",
+    "languages": "Languages",
+    "leaderboard": "Leaderboard",
+    "noLanguages": "No languages available yet.",
+    "noContributors": "Be the first contributor!",
+    "approved": "approved",
+    "stale": "needs update",
+    "translations": "translations",
+    "backToLanguages": "Back to languages",
+    "editingLanguage": "Translating",
+    "translated": "translated",
+    "ctrlEnter": "Ctrl+Enter to save & next",
+    "filter_all": "All",
+    "filter_untranslated": "Untranslated",
+    "filter_pending": "Pending",
+    "filter_reviewed": "Reviewed",
+    "filter_approved": "Approved",
+    "filter_stale": "Stale",
+    "searchKeys": "Search keys...",
+    "noKeys": "No translation keys found.",
+    "saveNext": "Save & Next",
+    "clickToTranslate": "Click to translate...",
+    "by": "by"
+  }
+}

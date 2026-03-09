@@ -1,0 +1,37 @@
+name: Generate Missing Keys
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'web/**'
+      - 'bot/**'
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    name: Generate Missing Translation Keys
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generate missing key files
+        run: node scripts/generate-missing.js
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add __missing/
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: auto-generate missing translation keys"
+            git push
+          fi

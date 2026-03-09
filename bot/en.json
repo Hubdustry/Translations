@@ -1,0 +1,19 @@
+{
+    "welcome": {
+        "join": {
+            "title": "Welcome!",
+            "description": "Welcome to %s, %s!",
+            "footer": "Member #%d"
+        },
+        "leave": {
+            "title": "Goodbye!",
+            "description": "%s has left the server."
+        }
+    },
+    "leveling": {
+        "level_up": {
+            "title": "Level Up!",
+            "description": "%s has reached level %d!"
+        }
+    }
+}

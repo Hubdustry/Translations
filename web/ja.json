@@ -1,0 +1,200 @@
+{
+  "common": {
+    "login": "Discordでログイン",
+    "logout": "ログアウト",
+    "loading": "読み込み中...",
+    "features": "機能",
+    "pricing": "料金",
+    "save": "保存",
+    "cancel": "キャンセル",
+    "delete": "削除",
+    "edit": "編集",
+    "back": "戻る"
+  },
+  "landing": {
+    "badge": "次世代のDiscordボットプラットフォーム",
+    "heroTitle": "あなたのDiscordサーバーを",
+    "heroHighlight": "スーパーチャージ",
+    "heroSubtitle": "レベリング、モデレーション、ウェルカムメッセージ、リアクションロールなど15以上のモジュール — すべて1つのボットで。",
+    "ctaPrimary": "無料で始める",
+    "ctaSecondary": "詳しく見る",
+    "featuresTitle": "サーバーに必要なすべて",
+    "featuresSubtitle": "19以上のモジュール、1つのBot。",
+    "ctaTitle": "サーバーを<highlight>スーパーチャージ</highlight>しませんか？",
+    "ctaHighlight": "スーパーチャージ",
+    "ctaSubtitle": "すでに何千ものサーバーが利用中。永久無料。",
+    "ctaButton": "無料で始める",
+    "footer": "© 2026 Hubdustry. All rights reserved.",
+    "stats": {
+      "servers": "サーバー",
+      "users": "ユーザー",
+      "modules": "モジュール",
+      "uptime": "稼働率"
+    },
+    "highlightFree": "永久無料",
+    "highlightSetup": "5分で設定",
+    "highlightLang": "17言語対応",
+    "whyTitle": "なぜHubdustry？",
+    "whySubtitle": "大切なコミュニティのために。シンプルで強力なモジュール。",
+    "why1Title": "オールインワン",
+    "why1Desc": "5つ以上のBotを1つに統合",
+    "why2Title": "設定不要",
+    "why2Desc": "すぐに動作、後から調整",
+    "why3Title": "常時稼働",
+    "why3Desc": "99.9%の稼働率"
+  },
+  "features": {
+    "welcome": {
+      "title": "ウェルカム＆グッバイ",
+      "desc": "カスタムメッセージで新しいメンバーを歓迎し、自動でロールを割り当てます。"
+    },
+    "leveling": {
+      "title": "レベリングシステム",
+      "desc": "アクティブなメンバーにXP、レベル、ロール報酬を。"
+    },
+    "moderation": {
+      "title": "モデレーション",
+      "desc": "自動モデレーション、BAN、キック、ミュート、警告でサーバーを安全に。"
+    },
+    "commands": {
+      "title": "カスタムコマンド",
+      "desc": "埋め込みやアクション付きのカスタムコマンドを作成。"
+    },
+    "roles": {
+      "title": "リアクションロール",
+      "desc": "絵文字リアクションでメンバーが自分のロールを選べます。"
+    },
+    "tickets": {
+      "title": "チケットシステム",
+      "desc": "コミュニティのためのプロフェッショナルなサポートチケット。"
+    }
+  },
+  "dashboard": {
+    "servers": "あなたのサーバー",
+    "serversSubtitle": "サーバーを選択してモジュールと設定を管理。",
+    "botActive": "ボットアクティブ",
+    "addBot": "ボット追加",
+    "manage": "管理",
+    "noServers": "サーバーが見つかりません",
+    "premium": "プレミアム",
+    "freePlan": "無料プラン",
+    "goPremium": "プレミアムへ",
+    "premiumDesc": "すべてのモジュールとカスタムボット機能をアンロック。",
+    "upgrade": "アップグレード — $7.99/月",
+    "translate": "翻訳",
+    "plugins": {
+      "searchPlaceholder": "プラグインを検索...",
+      "categories": {
+        "all": "すべてのプラグイン",
+        "moderation": "モデレーション",
+        "engagement": "エンゲージメント",
+        "utility": "ユーティリティ"
+      },
+      "stats": {
+        "active": "有効",
+        "available": "利用可能",
+        "premium": "プレミアム"
+      },
+      "noResults": "「{query}」に一致するプラグインが見つかりません",
+      "clearFilters": "フィルターをクリア",
+      "new": "NEW",
+      "modules": {
+        "welcome": {
+          "title": "ウェルカム",
+          "desc": "カスタムメッセージで新しいメンバーを歓迎し、ロールを割り当てます。"
+        },
+        "leveling": {
+          "title": "レベル & XP",
+          "desc": "アクティブなメンバーにXP、レベル、ロール報酬を。"
+        },
+        "moderation": {
+          "title": "自動モデレーター",
+          "desc": "スパム、レイド、有害コンテンツを自動検出して削除。"
+        },
+        "reaction_roles": {
+          "title": "リアクションロール",
+          "desc": "メッセージにリアクションしてロールを自己割り当て。"
+        },
+        "translate": {
+          "title": "翻訳ポータル",
+          "desc": "サーバーコンテンツを複数言語に管理・翻訳。"
+        },
+        "voicemaster": {
+          "title": "VoiceMaster",
+          "desc": "トリガーチャンネルに参加すると一時ボイスチャンネルを自動作成。"
+        },
+        "commands": {
+          "title": "カスタムコマンド",
+          "desc": "変数や埋め込み付きの強力なカスタムコマンドを作成。"
+        },
+        "music": {
+          "title": "音楽プレーヤー",
+          "desc": "YouTube、Spotify、SoundCloudからボイスチャンネルで音楽を再生。"
+        },
+        "tickets": {
+          "title": "チケット",
+          "desc": "カテゴリと自動クローズ付きのサポートチケットシステムを作成。"
+        }
+      }
+    },
+    "voicemaster": {
+      "title": "VoiceMaster",
+      "subtitle": "一時ボイスチャンネルを自動作成",
+      "addSetup": "セットアップ追加",
+      "howItWorks": "使い方",
+      "step1": "サーバーにボイスチャンネルを作成（例：「➕ 参加して作成」）",
+      "step2": "下でトリガーチャンネルとして選択",
+      "step3": "ユーザーがそのチャンネルに参加 → ボットが一時チャンネルを作成して移動",
+      "step4": "一時チャンネルが空になると → ボットが自動削除",
+      "newSetupTitle": "新しいトリガーチャンネル設定",
+      "triggerChannel": "トリガーボイスチャンネル",
+      "selectChannel": "ボイスチャンネルを選択...",
+      "categoryLabel": "チャンネル作成先（カテゴリ）",
+      "sameAsTrigger": "トリガーチャンネルと同じ",
+      "nameTemplate": "チャンネル名テンプレート",
+      "preview": "プレビュー",
+      "userLimit": "ユーザー制限",
+      "unlimited": "0 = 無制限",
+      "bitrate": "ビットレート (kbps)",
+      "createSetup": "セットアップ作成",
+      "creating": "作成中...",
+      "noSetups": "トリガーチャンネルがまだ設定されていません。",
+      "noSetupsHint": "「セットアップ追加」をクリックして開始。",
+      "templateVars": "テンプレート変数",
+      "varUser": "ユーザー名",
+      "varCount": "連番",
+      "templateLabel": "テンプレート",
+      "categoryDetailLabel": "カテゴリ",
+      "limitLabel": "制限",
+      "failedCreate": "セットアップの作成に失敗しました",
+      "failedDelete": "セットアップの削除に失敗しました",
+      "failedUpdate": "セットアップの更新に失敗しました"
+    }
+  },
+  "translate": {
+    "title": "翻訳ポータル",
+    "subtitle": "Hubdustryをあなたの言語に翻訳してXPを獲得しよう！",
+    "languages": "言語",
+    "leaderboard": "ランキング",
+    "noLanguages": "まだ言語がありません。",
+    "noContributors": "最初の貢献者になりましょう！",
+    "approved": "承認済み",
+    "stale": "更新が必要",
+    "translations": "翻訳",
+    "backToLanguages": "言語一覧に戻る",
+    "editingLanguage": "翻訳中",
+    "translated": "翻訳済み",
+    "ctrlEnter": "Ctrl+Enterで保存＆次へ",
+    "filter_all": "すべて",
+    "filter_untranslated": "未翻訳",
+    "filter_pending": "保留中",
+    "filter_reviewed": "レビュー済み",
+    "filter_approved": "承認済み",
+    "filter_stale": "古い",
+    "searchKeys": "キーを検索...",
+    "noKeys": "翻訳キーが見つかりません。",
+    "saveNext": "保存＆次へ",
+    "clickToTranslate": "クリックして翻訳...",
+    "by": "by"
+  }
+}
