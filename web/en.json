@@ -1,4 +1,4 @@
-{
+﻿{
   "common": {
     "login": "Login with Discord",
     "logout": "Logout",
@@ -15,14 +15,14 @@
     "badge": "The Next-Gen Discord Bot Platform",
     "heroTitle": "Your Discord Server,",
     "heroHighlight": "Supercharged",
-    "heroSubtitle": "Leveling, moderation, welcome messages, reaction roles, and 15+ more modules — all from one powerful bot.",
-    "ctaPrimary": "Get Started — Free",
+    "heroSubtitle": "Leveling, moderation, welcome messages, reaction roles, and 19+ more modules — all from one powerful bot.",
+    "ctaPrimary": "Add to Discord — Free",
     "ctaSecondary": "Learn More",
-    "featuresTitle": "Everything Your Server Needs",
-    "featuresSubtitle": "19+ powerful modules, one bot. No bloat, no complexity.",
+    "featuresTitle": "19+ Powerful Modules",
+    "featuresSubtitle": "Everything your community needs — moderation, engagement, and utilities in one bot.",
     "ctaTitle": "Ready to <highlight>Supercharge</highlight> your server?",
     "ctaHighlight": "Supercharge",
-    "ctaSubtitle": "Join thousands of servers already using Hubdustry. Free forever.",
+    "ctaSubtitle": "Join servers already using Hubdustry. Free forever, no credit card required.",
     "ctaButton": "Get Started — It's Free",
     "footer": "© 2026 Hubdustry. All rights reserved.",
     "stats": {
@@ -41,7 +41,41 @@
     "why2Title": "Zero Config",
     "why2Desc": "Works out of the box, customize later",
     "why3Title": "Always On",
-    "why3Desc": "99.9% uptime, globally distributed"
+    "why3Desc": "99.9% uptime, globally distributed",
+    "showcaseTitle": "See Hubdustry in Action",
+    "showcaseSubtitle": "A powerful dashboard to manage every aspect of your Discord server.",
+    "showcaseTab1": "Analytics",
+    "showcaseTab2": "Leveling",
+    "showcaseTab3": "Flow Builder",
+    "showcaseDesc1": "Real-time insights into member activity, message trends, and server growth.",
+    "showcaseDesc2": "XP tracking, leaderboards, and role rewards that keep your community engaged.",
+    "showcaseDesc3": "Visual automation workflows with drag-and-drop — no coding required.",
+    "socialProofTitle": "Trusted by Communities",
+    "socialProofSubtitle": "Servers that keep their members coming back",
+    "pricingTitle": "Simple, Transparent Pricing",
+    "pricingSubtitle": "Start free, upgrade when you're ready. No hidden fees.",
+    "pricingFreeTitle": "Free",
+    "pricingFreeDesc": "Everything you need to get started",
+    "pricingForever": "/forever",
+    "pricingFree1": "All 19+ modules included",
+    "pricingFree2": "Full dashboard access",
+    "pricingFree3": "17 language support",
+    "pricingFree4": "Community support",
+    "pricingPremiumTitle": "Premium",
+    "pricingPremiumDesc": "Supercharge your experience",
+    "pricingMonth": "/month",
+    "pricingPrem1": "2x Economy rewards",
+    "pricingPrem2": "50% Cooldown reduction",
+    "pricingPrem3": "Exclusive cosmetics & titles",
+    "pricingPrem4": "Priority support",
+    "pricingViewFull": "View Full Pricing & Gem Packages",
+    "footerProduct": "Product",
+    "footerResources": "Resources",
+    "footerConnect": "Connect",
+    "footerDashboard": "Dashboard",
+    "footerDocs": "Documentation",
+    "footerChangelog": "Changelog",
+    "footerStatus": "Status"
   },
   "features": {
     "welcome": {
@@ -61,12 +95,52 @@
       "desc": "Create personalized commands with embeds and actions."
     },
     "roles": {
-      "title": "Reaction Roles",
-      "desc": "Let members pick their own roles with emoji reactions."
+      "title": "Role Manager",
+      "desc": "Create, edit and organize server roles with colors and permissions."
     },
     "tickets": {
       "title": "Ticket System",
       "desc": "Professional support tickets for your community."
+    },
+    "flow_builder": {
+      "title": "Flow Builder",
+      "desc": "Visual automation workflows with drag-and-drop — no coding required."
+    },
+    "reaction_roles": {
+      "title": "Reaction Roles",
+      "desc": "Let members pick their own roles with emoji reactions."
+    },
+    "music": {
+      "title": "Music Player",
+      "desc": "Play music from YouTube, Spotify and SoundCloud in voice channels."
+    },
+    "voicemaster": {
+      "title": "VoiceMaster",
+      "desc": "Auto-create temporary voice channels when users join a trigger channel."
+    },
+    "embed_builder": {
+      "title": "Embed Builder",
+      "desc": "Design stunning Discord messages with a visual Components V2 editor."
+    },
+    "activity_log": {
+      "title": "Activity Log",
+      "desc": "Comprehensive event logging — surpasses Discord's audit log."
+    },
+    "translate": {
+      "title": "Translation Portal",
+      "desc": "Manage and translate server content into multiple languages."
+    },
+    "expression": {
+      "title": "Expression",
+      "desc": "Manage server emojis, stickers, and soundboard in one place."
+    },
+    "channels": {
+      "title": "Channel Manager",
+      "desc": "Create, edit, delete and organize Discord channels visually."
+    },
+    "integrations": {
+      "title": "Integrations",
+      "desc": "Manage webhooks, invites, and external channel connections."
     }
   },
   "dashboard": {
