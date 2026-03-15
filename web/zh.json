@@ -1,4 +1,4 @@
-﻿{
+{
   "common": {
     "login": "Login with Discord",
     "logout": "Logout",
@@ -41,7 +41,16 @@
     "why2Title": "零配置",
     "why2Desc": "即装即用，后续自定义",
     "why3Title": "永不掉线",
-    "why3Desc": "99.9%在线率"
+    "why3Desc": "99.9%在线率",
+    "showcaseTitle": "查看 Hubdustry 的实际效果",
+    "showcaseSubtitle": "强大的控制面板，管理您 Discord 服务器的方方面面。",
+    "showcaseTab1": "数据分析",
+    "showcaseTab2": "等级系统",
+    "showcaseTab3": "流程构建器",
+    "showcaseDesc1": "实时了解成员活动、消息趋势和服务器增长。",
+    "showcaseDesc2": "XP 追踪、排行榜和角色奖励，保持社区活跃。",
+    "showcaseDesc3": "拖放式可视化自动化工作流程 — 无需编程。",
+    "socialProofTitle": "受社区信赖"
   },
   "features": {
     "welcome": {

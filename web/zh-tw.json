@@ -1,4 +1,4 @@
-﻿{
+{
   "common": {
     "login": "Login with Discord",
     "logout": "Logout",
@@ -41,7 +41,16 @@
     "why2Title": "Zero Config",
     "why2Desc": "Works out of the box, customize later",
     "why3Title": "Always On",
-    "why3Desc": "99.9% uptime, globally distributed"
+    "why3Desc": "99.9% uptime, globally distributed",
+    "showcaseTitle": "查看 Hubdustry 的實際效果",
+    "showcaseSubtitle": "強大的控制面板，管理您 Discord 伺服器的方方面面。",
+    "showcaseTab1": "數據分析",
+    "showcaseTab2": "等級系統",
+    "showcaseTab3": "流程建構器",
+    "showcaseDesc1": "即時了解成員活動、訊息趨勢和伺服器成長。",
+    "showcaseDesc2": "XP 追蹤、排行榜和角色獎勵，保持社群活躍。",
+    "showcaseDesc3": "拖放式視覺化自動化工作流程 — 無需程式設計。",
+    "socialProofTitle": "受社群信賴"
   },
   "features": {
     "welcome": {

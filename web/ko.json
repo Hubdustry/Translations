@@ -1,4 +1,4 @@
-﻿{
+{
   "common": {
     "features": "기능",
     "loading": "로딩 중...",
@@ -169,7 +169,16 @@
     "why2Title": "설정 불필요",
     "why2Desc": "바로 작동, 나중에 커스터마이징",
     "why3Title": "항상 온라인",
-    "why3Desc": "99.9% 가동률, 글로벌 분산"
+    "why3Desc": "99.9% 가동률, 글로벌 분산",
+    "showcaseTitle": "Hubdustry 실제 동작 보기",
+    "showcaseSubtitle": "Discord 서버의 모든 측면을 관리하는 강력한 대시보드.",
+    "showcaseTab1": "분석",
+    "showcaseTab2": "레벨링",
+    "showcaseTab3": "플로우 빌더",
+    "showcaseDesc1": "멤버 활동, 메시지 트렌드, 서버 성장에 대한 실시간 인사이트.",
+    "showcaseDesc2": "XP 추적, 리더보드, 커뮤니티 참여를 유지하는 역할 보상.",
+    "showcaseDesc3": "드래그 앤 드롭으로 시각적 자동화 워크플로우 — 코딩 불필요.",
+    "socialProofTitle": "커뮤니티의 신뢰"
   },
   "translate": {
     "approved": "승인됨",

@@ -1,4 +1,4 @@
-﻿{
+{
   "common": {
     "login": "Login with Discord",
     "logout": "Logout",
@@ -41,7 +41,16 @@
     "why2Title": "Zero Config",
     "why2Desc": "Works out of the box, customize later",
     "why3Title": "Always On",
-    "why3Desc": "99.9% uptime, globally distributed"
+    "why3Desc": "99.9% uptime, globally distributed",
+    "showcaseTitle": "Hubdustry en Action",
+    "showcaseSubtitle": "Un tableau de bord puissant pour gérer chaque aspect de votre serveur Discord.",
+    "showcaseTab1": "Analytiques",
+    "showcaseTab2": "Niveaux",
+    "showcaseTab3": "Flow Builder",
+    "showcaseDesc1": "Des aperçus en temps réel sur l'activité des membres, les tendances des messages et la croissance du serveur.",
+    "showcaseDesc2": "Suivi XP, classements et récompenses de rôles pour garder votre communauté engagée.",
+    "showcaseDesc3": "Workflows d'automatisation visuelle par glisser-déposer — aucun code requis.",
+    "socialProofTitle": "Approuvé par les Communautés"
   },
   "features": {
     "welcome": {

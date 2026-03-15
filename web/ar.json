@@ -1,4 +1,4 @@
-﻿{
+{
   "common": {
     "login": "Login with Discord",
     "logout": "Logout",
@@ -41,7 +41,16 @@
     "why2Title": "Zero Config",
     "why2Desc": "Works out of the box, customize later",
     "why3Title": "Always On",
-    "why3Desc": "99.9% uptime, globally distributed"
+    "why3Desc": "99.9% uptime, globally distributed",
+    "showcaseTitle": "شاهد Hubdustry أثناء العمل",
+    "showcaseSubtitle": "لوحة تحكم قوية لإدارة كل جانب من جوانب سيرفر Discord الخاص بك.",
+    "showcaseTab1": "التحليلات",
+    "showcaseTab2": "التسوية",
+    "showcaseTab3": "منشئ التدفق",
+    "showcaseDesc1": "رؤى فورية حول نشاط الأعضاء واتجاهات الرسائل ونمو السيرفر.",
+    "showcaseDesc2": "تتبع XP ولوحات المتصدرين ومكافآت الأدوار التي تحافظ على تفاعل مجتمعك.",
+    "showcaseDesc3": "سير عمل آلي مرئي بالسحب والإفلات — لا حاجة للبرمجة.",
+    "socialProofTitle": "موثوق من المجتمعات"
   },
   "features": {
     "welcome": {

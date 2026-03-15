@@ -1,4 +1,4 @@
-﻿{
+{
   "common": {
     "login": "Login with Discord",
     "logout": "Logout",
@@ -41,7 +41,16 @@
     "why2Title": "Zero Config",
     "why2Desc": "Works out of the box, customize later",
     "why3Title": "Always On",
-    "why3Desc": "99.9% uptime, globally distributed"
+    "why3Desc": "99.9% uptime, globally distributed",
+    "showcaseTitle": "Дивіться Hubdustry в Дії",
+    "showcaseSubtitle": "Потужна панель керування для кожного аспекту вашого Discord-сервера.",
+    "showcaseTab1": "Аналітика",
+    "showcaseTab2": "Рівні",
+    "showcaseTab3": "Flow Builder",
+    "showcaseDesc1": "Аналітика в реальному часі про активність учасників, тренди повідомлень та зростання сервера.",
+    "showcaseDesc2": "Відстеження XP, таблиці лідерів та нагороди ролями для залучення вашої спільноти.",
+    "showcaseDesc3": "Візуальні автоматизовані робочі процеси з перетягуванням — без програмування.",
+    "socialProofTitle": "Довіра Спільнот"
   },
   "features": {
     "welcome": {

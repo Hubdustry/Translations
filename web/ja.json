@@ -1,4 +1,4 @@
-﻿{
+{
   "common": {
     "login": "Discordでログイン",
     "logout": "ログアウト",
@@ -41,7 +41,16 @@
     "why2Title": "設定不要",
     "why2Desc": "すぐに動作、後から調整",
     "why3Title": "常時稼働",
-    "why3Desc": "99.9%の稼働率"
+    "why3Desc": "99.9%の稼働率",
+    "showcaseTitle": "Hubdustryの動作を見る",
+    "showcaseSubtitle": "Discordサーバーのあらゆる側面を管理する強力なダッシュボード。",
+    "showcaseTab1": "アナリティクス",
+    "showcaseTab2": "レベリング",
+    "showcaseTab3": "フロービルダー",
+    "showcaseDesc1": "メンバーの活動、メッセージのトレンド、サーバーの成長に関するリアルタイムの洞察。",
+    "showcaseDesc2": "XPトラッキング、リーダーボード、コミュニティを活性化するロール報酬。",
+    "showcaseDesc3": "ドラッグ＆ドロップで視覚的な自動化ワークフロー — コーディング不要。",
+    "socialProofTitle": "コミュニティに信頼されています"
   },
   "features": {
     "welcome": {

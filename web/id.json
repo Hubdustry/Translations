@@ -1,4 +1,4 @@
-﻿{
+{
   "common": {
     "login": "Login with Discord",
     "logout": "Logout",
@@ -41,7 +41,16 @@
     "why2Title": "Zero Config",
     "why2Desc": "Works out of the box, customize later",
     "why3Title": "Always On",
-    "why3Desc": "99.9% uptime, globally distributed"
+    "why3Desc": "99.9% uptime, globally distributed",
+    "showcaseTitle": "Lihat Hubdustry Beraksi",
+    "showcaseSubtitle": "Dashboard canggih untuk mengelola setiap aspek server Discord Anda.",
+    "showcaseTab1": "Analitik",
+    "showcaseTab2": "Leveling",
+    "showcaseTab3": "Flow Builder",
+    "showcaseDesc1": "Wawasan real-time tentang aktivitas anggota, tren pesan, dan pertumbuhan server.",
+    "showcaseDesc2": "Pelacakan XP, papan peringkat, dan hadiah peran yang menjaga komunitas Anda tetap terlibat.",
+    "showcaseDesc3": "Alur kerja otomatisasi visual dengan seret dan lepas — tanpa perlu coding.",
+    "socialProofTitle": "Dipercaya oleh Komunitas"
   },
   "features": {
     "welcome": {

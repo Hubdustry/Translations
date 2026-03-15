@@ -1,4 +1,4 @@
-﻿{
+{
   "common": {
     "login": "Login with Discord",
     "logout": "Logout",
@@ -41,7 +41,16 @@
     "why2Title": "Zero Config",
     "why2Desc": "Works out of the box, customize later",
     "why3Title": "Always On",
-    "why3Desc": "99.9% uptime, globally distributed"
+    "why3Desc": "99.9% uptime, globally distributed",
+    "showcaseTitle": "Hubdustry in Aktion",
+    "showcaseSubtitle": "Ein leistungsstarkes Dashboard zur Verwaltung aller Aspekte deines Discord-Servers.",
+    "showcaseTab1": "Analysen",
+    "showcaseTab2": "Leveling",
+    "showcaseTab3": "Flow Builder",
+    "showcaseDesc1": "Echtzeit-Einblicke in Mitgliederaktivität, Nachrichtentrends und Serverwachstum.",
+    "showcaseDesc2": "XP-Tracking, Bestenlisten und Rollenbelohnungen, die deine Community engagiert halten.",
+    "showcaseDesc3": "Visuelle Automatisierungs-Workflows per Drag-and-Drop — keine Programmierung nötig.",
+    "socialProofTitle": "Von Communities vertraut"
   },
   "features": {
     "welcome": {

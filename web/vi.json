@@ -1,4 +1,4 @@
-﻿{
+{
   "common": {
     "features": "Các tính năng",
     "loading": "Đang tải...",
@@ -320,7 +320,16 @@
     "why2Title": "Không cần cấu hình",
     "why2Desc": "Hoạt động ngay, tùy chỉnh sau",
     "why3Title": "Luôn hoạt động",
-    "why3Desc": "99.9% uptime, phân phối toàn cầu"
+    "why3Desc": "99.9% uptime, phân phối toàn cầu",
+    "showcaseTitle": "Xem Hubdustry Hoạt Động",
+    "showcaseSubtitle": "Bảng điều khiển mạnh mẽ để quản lý mọi khía cạnh của máy chủ Discord.",
+    "showcaseTab1": "Phân tích",
+    "showcaseTab2": "Cấp độ",
+    "showcaseTab3": "Flow Builder",
+    "showcaseDesc1": "Thông tin chi tiết thời gian thực về hoạt động thành viên, xu hướng tin nhắn và tăng trưởng máy chủ.",
+    "showcaseDesc2": "Theo dõi XP, bảng xếp hạng và phần thưởng vai trò giúp cộng đồng luôn gắn kết.",
+    "showcaseDesc3": "Quy trình tự động hóa trực quan với kéo và thả — không cần lập trình.",
+    "socialProofTitle": "Được Cộng Đồng Tin Tưởng"
   },
   "translate": {
     "approved": "đã duyệt",

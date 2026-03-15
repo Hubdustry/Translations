@@ -1,4 +1,4 @@
-﻿{
+{
   "common": {
     "login": "Login with Discord",
     "logout": "Logout",
@@ -41,7 +41,16 @@
     "why2Title": "Zero Config",
     "why2Desc": "Works out of the box, customize later",
     "why3Title": "Always On",
-    "why3Desc": "99.9% uptime, globally distributed"
+    "why3Desc": "99.9% uptime, globally distributed",
+    "showcaseTitle": "Hubdustry'u İş Başında Görün",
+    "showcaseSubtitle": "Discord sunucunuzun her yönünü yönetmek için güçlü bir kontrol paneli.",
+    "showcaseTab1": "Analitik",
+    "showcaseTab2": "Seviyelendirme",
+    "showcaseTab3": "Flow Builder",
+    "showcaseDesc1": "Üye etkinliği, mesaj trendleri ve sunucu büyümesi hakkında gerçek zamanlı bilgiler.",
+    "showcaseDesc2": "Topluluğunuzu meşgul tutan XP takibi, sıralama tabloları ve rol ödülleri.",
+    "showcaseDesc3": "Sürükle-bırak ile görsel otomasyon iş akışları — kodlama gerektirmez.",
+    "socialProofTitle": "Topluluklar Tarafından Güveniliyor"
   },
   "features": {
     "welcome": {
