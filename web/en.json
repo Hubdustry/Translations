@@ -1,4 +1,4 @@
-﻿{
+{
   "common": {
     "login": "Login with Discord",
     "logout": "Logout",
@@ -512,6 +512,19 @@
       "failedCreate": "Failed to create setup",
       "failedDelete": "Failed to delete setup",
       "failedUpdate": "Failed to update setup"
+    },
+    "levels": {
+      "leaderboard": {
+        "title": "Leaderboard",
+        "totalMembers": "Total Members",
+        "totalXP": "Total XP",
+        "highestLevel": "Highest Level",
+        "activeToday": "Active Today",
+        "searchPlaceholder": "Search...",
+        "empty": "No members found",
+        "messages": "msgs",
+        "membersTotal": "{count, plural, one {# member total} other {# members total}}"
+      }
     }
   },
   "translate": {
