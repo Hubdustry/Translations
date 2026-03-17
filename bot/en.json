@@ -623,5 +623,61 @@
         "specify_user": "Please specify a user.",
         "no_data": "No invite data found for **%s**.",
         "invited_by": "**%s** was invited by <@%s>"
+    },
+    "schedule": {
+        "server_only": "This command can only be used in a server.",
+        "db_unavailable": "Database unavailable.",
+        "specify_channel": "Please specify a channel.",
+        "invalid_time": "Invalid time format. Use formats like `30m`, `2h`, `1d`.",
+        "create_failed": "Failed to create scheduled message.",
+        "repeats": "repeats %s",
+        "created": "Scheduled message #%d to <#%s> in %s%s",
+        "fetch_failed": "Failed to fetch scheduled messages.",
+        "no_messages": "No scheduled messages.",
+        "list_title": "Scheduled Messages",
+        "not_found": "Scheduled message not found.",
+        "cancelled": "Cancelled scheduled message #%d"
+    },
+    "reaction_roles": {
+        "server_only": "This command can only be used in a server.",
+        "use_subcommand": "Please use a subcommand: `/reactionroles deploy`",
+        "not_configured": "Reaction Roles module is not configured. Set it up in the dashboard first.",
+        "all_deployed": "All panels are already deployed. Create new panels in the dashboard.",
+        "deployed_count": "Deployed **%d** reaction role panel(s)!",
+        "deploy_failed": "Failed to deploy: %v",
+        "deployed_single": "Reaction role panel deployed! Message ID: `%s`",
+        "no_panels": "No reaction role panels configured. Set them up in the dashboard.",
+        "no_panels_found": "No reaction role panels found.",
+        "not_deployed": "Not deployed",
+        "deployed": "Deployed",
+        "panels_title": "Reaction Role Panels",
+        "default_desc": "React with an emoji below to get a role!"
+    },
+    "role_menu": {
+        "server_only": "This command can only be used in a server.",
+        "not_configured": "No role menus configured. Set them up in the dashboard.",
+        "default_title": "Role Menu",
+        "default_desc": "Select a role from the menu below.",
+        "select_placeholder": "Select roles...",
+        "deployed_count": "Deployed %d role menu panel(s).",
+        "no_menus": "No role menus configured.",
+        "not_deployed": "Not deployed",
+        "menus_title": "Role Menus",
+        "member_not_found": "Could not find your member info.",
+        "role_remove_failed": "Failed to remove role.",
+        "role_removed": "Removed <@&%s>",
+        "role_add_failed": "Failed to add role.",
+        "role_added": "Added <@&%s>",
+        "added_label": "Added: %s",
+        "removed_label": "Removed: %s",
+        "no_changes": "No role changes."
+    },
+    "reaction_pins": {
+        "not_enabled": "Reaction Pins is not enabled. Configure it in the dashboard.",
+        "settings_title": "Reaction Pin Settings",
+        "emoji": "Emoji",
+        "threshold": "Threshold",
+        "threshold_val": "%d reactions",
+        "total_pins": "Total Pins"
     }
 }
