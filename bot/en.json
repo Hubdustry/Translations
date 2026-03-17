@@ -17,14 +17,19 @@
         }
     },
     "economy": {
+        "server_only": "This command can only be used in a server.",
         "daily": {
             "title": "Daily Reward",
+            "description": "You received ⚡ **%d** Sparks!%s%s\n\n💵 Balance: ⚡ **%d**",
+            "streak": "\n🔥 **Streak x%d** — Bonus: +⚡ %d",
+            "premium": "\n⭐ **Premium 2x** bonus applied!",
+            "footer": "Come back tomorrow for more!",
             "claimed": "You claimed your daily reward of %s %s!",
-            "streak": "🔥 %d day streak! Bonus: +%s",
             "cooldown": "You already claimed today. Come back in %s."
         },
         "work": {
-            "title": "Work Complete",
+            "title": "%s",
+            "description": "You worked as a **%s** and earned ⚡ **%d** Sparks!%s\n\n💵 Balance: ⚡ **%d**",
             "earned": "You earned %s %s from working!",
             "cooldown": "You need to rest. Try again in %s."
         },
@@ -32,39 +37,104 @@
             "title": "%s's Balance",
             "cash": "Cash",
             "bank": "Bank",
-            "total": "Total"
+            "total": "Total",
+            "error": "Failed to fetch balance."
+        },
+        "deposit": {
+            "title": "Deposit Successful",
+            "description": "Deposited ⚡ **%d** to your bank.\n\n💵 Cash: ⚡ **%d** | 🏦 Bank: ⚡ **%d**",
+            "error": "Failed to deposit.",
+            "insufficient": "You don't have enough cash!"
+        },
+        "withdraw": {
+            "title": "Withdrawal Successful",
+            "description": "Withdrew ⚡ **%d** from your bank.\n\n💵 Cash: ⚡ **%d** | 🏦 Bank: ⚡ **%d**",
+            "error": "Failed to withdraw.",
+            "insufficient": "You don't have enough in your bank!"
         },
         "transfer": {
             "title": "Transfer Complete",
-            "success": "Sent %s %s to %s (tax: %s%%)",
-            "insufficient": "You don't have enough funds.",
-            "self": "You can't transfer to yourself."
+            "description": "**%s** → **%s**\n\n⚡ **%d** Sparks sent%s\n✅ **%s** received ⚡ **%d**",
+            "tax_line": "\n💸 Tax (%d%%): ⚡ %d",
+            "error": "Transfer failed.",
+            "insufficient": "You don't have enough Sparks!",
+            "self": "You can't pay yourself!",
+            "bot": "You can't pay a bot!",
+            "no_user": "Please specify a user to pay.",
+            "success": "Sent %s %s to %s (tax: %s%%)"
+        },
+        "richest": {
+            "title": "Richest Members",
+            "empty": "No economy data yet. Start with `/daily` or `/work`!",
+            "entry": "%s <@%d> — ⚡ **%d** Sparks",
+            "footer": "Hubdustry Economy"
         }
     },
     "moderation": {
-        "kick": {
-            "title": "Member Kicked",
-            "description": "%s has been kicked by %s.",
-            "reason": "Reason: %s",
-            "dm": "You have been kicked from %s."
-        },
         "ban": {
             "title": "Member Banned",
+            "success": "Banned **%s** (Case #%d). Duration: %s. Reason: %s",
+            "error": "Failed to ban **%s**: %v",
+            "dm": "You have been banned from the server.\nReason: %s",
             "description": "%s has been banned by %s.",
-            "reason": "Reason: %s",
-            "dm": "You have been banned from %s."
+            "reason": "Reason: %s"
+        },
+        "kick": {
+            "title": "Member Kicked",
+            "success": "Kicked **%s** (Case #%d). Reason: %s",
+            "error": "Failed to kick **%s**: %v",
+            "dm": "You have been kicked from the server.\nReason: %s",
+            "description": "%s has been kicked by %s."
         },
         "warn": {
             "title": "Warning Issued",
+            "success": "Warned **%s** (Case #%d, Warning #%d). Reason: %s",
+            "error": "Database error logging warning.",
+            "dm": "You have been warned.\nReason: %s",
             "description": "%s has been warned by %s.",
-            "reason": "Reason: %s",
-            "dm": "You received a warning in %s."
+            "reason": "Reason: %s"
         },
         "timeout": {
             "title": "Member Timed Out",
+            "success": "Timed out **%s** for %s (Case #%d). Reason: %s",
+            "error": "Failed to timeout **%s**: %v",
+            "dm": "You have been timed out for %s.\nReason: %s",
+            "max_duration": "Timeout duration cannot exceed 28 days.",
             "description": "%s has been timed out for %s.",
             "reason": "Reason: %s"
-        }
+        },
+        "unban": {
+            "title": "Member Unbanned",
+            "success": "Unbanned user `%s` (Case #%d). Reason: %s",
+            "error": "Failed to unban user: %v",
+            "invalid_id": "Invalid user ID."
+        },
+        "warnings": {
+            "title": "%s's Warnings",
+            "no_warnings": "**%s** has no warnings.",
+            "error": "Failed to fetch warnings."
+        },
+        "delwarn": {
+            "success": "Deleted case #%d."
+        },
+        "modlog": {
+            "title": "%s's Mod Log",
+            "no_cases": "**%s** has no moderation cases.",
+            "error": "Failed to fetch mod log."
+        },
+        "purge": {
+            "success": "Deleted **%d** message(s)%s.",
+            "no_messages": "No messages found to delete.",
+            "error": "Failed to fetch messages.",
+            "delete_error": "Failed to delete messages: %v"
+        },
+        "slowmode": {
+            "disabled": "Slowmode disabled.",
+            "set": "Slowmode set to **%s**.",
+            "max_duration": "Slowmode cannot exceed 6 hours.",
+            "error": "Failed to set slowmode: %v"
+        },
+        "invalid_duration": "Invalid duration: %s"
     },
     "general": {
         "error": {
