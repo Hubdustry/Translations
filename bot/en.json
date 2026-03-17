@@ -186,5 +186,32 @@
             "push": "Push — bet returned",
             "lost": "Lost: ⚡ **%d**"
         }
+    },
+    "social": {
+        "server_only": "This command can only be used in a server.",
+        "rob": {
+            "success_title": "Rob — Success!",
+            "success_desc": "You robbed <@%d> and stole ⚡ **%d** Sparks!",
+            "caught_title": "Rob — Caught!",
+            "caught_desc": "You got caught trying to rob <@%d>!\nYou paid a fine of ⚡ **%d** Sparks."
+        },
+        "gift": {
+            "title": "Gift",
+            "description": "You gifted ⚡ **%d** Sparks to <@%d>!"
+        },
+        "shop": {
+            "title": "Server Shop",
+            "empty": "The shop is empty! Ask a server admin to add items.",
+            "entry": "`#%d` **%s** — ⚡ %d (Stock: %s)",
+            "footer": "Use /buy <item id> to purchase"
+        },
+        "buy": {
+            "title": "Purchase Complete",
+            "description": "Successfully purchased item `#%d`!"
+        },
+        "inventory": {
+            "title": "<@%d>'s Inventory",
+            "empty": "Inventory is empty!"
+        }
     }
 }
