@@ -608,5 +608,20 @@
     },
     "anti_link": {
         "default_warning": "%s, links are not allowed in this channel."
+    },
+    "invites": {
+        "server_only": "This command can only be used in a server.",
+        "db_unavailable": "Database unavailable.",
+        "check_title": "%s's Invites",
+        "total": "Total",
+        "joins": "Joins",
+        "leaves": "Leaves",
+        "leaderboard_failed": "Failed to fetch leaderboard.",
+        "leaderboard_empty": "No invite data yet.",
+        "leaderboard_title": "Invite Leaderboard",
+        "leaderboard_entry": "%s <@%s> \u2014 **%d** invites (%d joins, %d left)",
+        "specify_user": "Please specify a user.",
+        "no_data": "No invite data found for **%s**.",
+        "invited_by": "**%s** was invited by <@%s>"
     }
 }
