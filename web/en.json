@@ -379,6 +379,14 @@
           "title": "Auto Slowmode",
           "desc": "Dynamically adjust channel slowmode based on message volume."
         }
+      },
+      "dialog": {
+        "enableTitle": "Enable the {title} plugin?",
+        "disableTitle": "Disable the {title} plugin?",
+        "enableDesc": "This plugin will be activated for your server. You can configure it after enabling.",
+        "disableDesc": "This plugin will be deactivated. Your settings will be saved for later.",
+        "enable": "Enable",
+        "disable": "Disable"
       }
     },
     "tabs": {
@@ -706,6 +714,128 @@
         "messages": "msgs",
         "membersTotal": "{count, plural, one {# member total} other {# members total}}"
       }
+    },
+    "economy": {
+      "title": "Economy",
+      "subtitle": "Configure currency, earnings, and view the leaderboard",
+      "tabs": {
+        "settings": "Settings",
+        "leaderboard": "Leaderboard"
+      },
+      "groups": {
+        "general": "General",
+        "earning": "Earning",
+        "transfers": "Transfers",
+        "gambling": "Gambling",
+        "robbery": "Robbery"
+      },
+      "fields": {
+        "economyEnabled": "Economy Enabled",
+        "economyEnabledDesc": "Enable or disable all economy commands for this server",
+        "currencyName": "Currency Name",
+        "currencyEmoji": "Currency Emoji",
+        "dailyAmount": "Daily Amount",
+        "dailyStreakBonus": "Daily Streak Bonus",
+        "workMinimum": "Work Minimum",
+        "workMaximum": "Work Maximum",
+        "workCooldown": "Work Cooldown",
+        "startingBalance": "Starting Balance",
+        "transferTax": "Transfer Tax",
+        "maxBet": "Max Bet",
+        "gamblingCooldown": "Gambling Cooldown",
+        "robberyEnabled": "Robbery Enabled",
+        "robberyEnabledDesc": "Allow users to rob each other",
+        "successChance": "Success Chance",
+        "maxSteal": "Max Steal",
+        "robCooldown": "Rob Cooldown"
+      },
+      "suffixes": {
+        "seconds": "seconds",
+        "percent": "%",
+        "percentOfCash": "% of target's cash"
+      },
+      "saveChanges": "Save Changes",
+      "failedToSave": "Failed to save. Please try again.",
+      "settingsSaved": "Settings saved successfully!",
+      "leaderboard": {
+        "noRankings": "No Rankings Yet",
+        "noRankingsDesc": "No one has earned any currency yet. Members can get started with /daily or /work.",
+        "rank": "Rank",
+        "user": "User",
+        "balance": "Balance",
+        "page": "Page {page}",
+        "previous": "Previous",
+        "next": "Next"
+      }
+    },
+    "autoSlowmode": {
+      "title": "Auto Slowmode",
+      "backToPlugins": "Back to Plugins",
+      "rateThresholds": "Rate Thresholds",
+      "messageThreshold": "Message Threshold",
+      "timeWindow": "Time Window",
+      "slowmodeDelay": "Slowmode Delay",
+      "maxSlowmode": "Max Slowmode",
+      "scaling": "Progressive Scaling",
+      "scalingDesc": "Increase slowmode with message volume",
+      "monitoredChannels": "Monitored Channels",
+      "addChannel": "Add Channel",
+      "channelLabel": "Channel",
+      "selectChannel": "Select a channel...",
+      "noChannels": "No channels monitored",
+      "saveSettings": "Save Settings",
+      "saving": "Saving...",
+      "notEnabled": "Auto-Slowmode is not enabled",
+      "enableMessage": "Enable it from the Plugins page to configure these settings.",
+      "goToPlugins": "Go to Plugins",
+      "seconds": "seconds",
+      "messages": "messages"
+    },
+    "moderation": {
+      "title": "Moderation",
+      "deleteMessages": "Delete messages:",
+      "duration": "Duration",
+      "dryRun": "Dry run",
+      "dryRunDesc": "Preview count without pruning",
+      "username": "Username",
+      "userId": "User ID",
+      "reason": "Reason",
+      "action": "Action",
+      "actions": "Actions",
+      "nickname": "Nickname",
+      "roles": "Roles",
+      "joined": "Joined",
+      "automodRules": "Auto-Moderation Rules",
+      "noAutomodRules": "No auto-moderation rules configured",
+      "addRuleHint": "Click \"Add Rule\" to get started",
+      "modLogChannel": "Mod Log Channel",
+      "modLogChannelDesc": "All moderation actions will be logged to this channel.",
+      "warningAutoAction": "Warning Auto-Action",
+      "actionWhenThreshold": "Action when threshold reached",
+      "warningThreshold": "Warning threshold",
+      "logPurgeActions": "Log Purge Actions",
+      "logPurgeActionsDesc": "Create mod case when messages are purged",
+      "failedToLoad": "Failed to load settings.",
+      "retry": "Retry",
+      "moderator": "Moderator",
+      "date": "Date",
+      "del": "Del",
+      "ruleName": "Rule Name",
+      "triggerType": "Trigger Type",
+      "keywords": "Keywords (comma-separated)",
+      "cancel": "Cancel",
+      "confirm": "Confirm"
+    },
+    "settings": {
+      "failedToLoad": "Failed to load settings. Please try again.",
+      "none": "None",
+      "dashboardAccess": "Dashboard Access",
+      "dashboardAccessDesc": "If no roles are selected, only the Server Owner and users with Administrator permission can access the dashboard.",
+      "botName": "Hubdustry Bot",
+      "previewTime": "Today at 2:30 PM",
+      "settingsUpdated": "Settings Updated",
+      "language": "Language",
+      "timezone": "Timezone"
     }
   },
   "translate": {
