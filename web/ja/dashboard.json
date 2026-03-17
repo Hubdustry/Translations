@@ -1,0 +1,102 @@
+{
+  "servers": "あなたのサーバー",
+  "serversSubtitle": "サーバーを選択してモジュールと設定を管理。",
+  "botActive": "ボットアクティブ",
+  "addBot": "ボット追加",
+  "manage": "管理",
+  "noServers": "サーバーが見つかりません",
+  "premium": "プレミアム",
+  "freePlan": "無料プラン",
+  "goPremium": "プレミアムへ",
+  "premiumDesc": "すべてのモジュールとカスタムボット機能をアンロック。",
+  "upgrade": "アップグレード — $7.99/月",
+  "translate": "翻訳",
+  "plugins": {
+    "searchPlaceholder": "プラグインを検索...",
+    "categories": {
+      "all": "すべてのプラグイン",
+      "moderation": "モデレーション",
+      "engagement": "エンゲージメント",
+      "utility": "ユーティリティ"
+    },
+    "stats": {
+      "active": "有効",
+      "available": "利用可能",
+      "premium": "プレミアム"
+    },
+    "noResults": "「{query}」に一致するプラグインが見つかりません",
+    "clearFilters": "フィルターをクリア",
+    "new": "NEW",
+    "modules": {
+      "welcome": {
+        "title": "ウェルカム",
+        "desc": "カスタムメッセージで新しいメンバーを歓迎し、ロールを割り当てます。"
+      },
+      "leveling": {
+        "title": "レベル & XP",
+        "desc": "アクティブなメンバーにXP、レベル、ロール報酬を。"
+      },
+      "moderation": {
+        "title": "自動モデレーター",
+        "desc": "スパム、レイド、有害コンテンツを自動検出して削除。"
+      },
+      "reaction_roles": {
+        "title": "リアクションロール",
+        "desc": "メッセージにリアクションしてロールを自己割り当て。"
+      },
+      "translate": {
+        "title": "翻訳ポータル",
+        "desc": "サーバーコンテンツを複数言語に管理・翻訳。"
+      },
+      "voicemaster": {
+        "title": "VoiceMaster",
+        "desc": "トリガーチャンネルに参加すると一時ボイスチャンネルを自動作成。"
+      },
+      "commands": {
+        "title": "カスタムコマンド",
+        "desc": "変数や埋め込み付きの強力なカスタムコマンドを作成。"
+      },
+      "music": {
+        "title": "音楽プレーヤー",
+        "desc": "YouTube、Spotify、SoundCloudからボイスチャンネルで音楽を再生。"
+      },
+      "tickets": {
+        "title": "チケット",
+        "desc": "カテゴリと自動クローズ付きのサポートチケットシステムを作成。"
+      }
+    }
+  },
+  "voicemaster": {
+    "title": "VoiceMaster",
+    "subtitle": "一時ボイスチャンネルを自動作成",
+    "addSetup": "セットアップ追加",
+    "howItWorks": "使い方",
+    "step1": "サーバーにボイスチャンネルを作成（例：「➕ 参加して作成」）",
+    "step2": "下でトリガーチャンネルとして選択",
+    "step3": "ユーザーがそのチャンネルに参加 → ボットが一時チャンネルを作成して移動",
+    "step4": "一時チャンネルが空になると → ボットが自動削除",
+    "newSetupTitle": "新しいトリガーチャンネル設定",
+    "triggerChannel": "トリガーボイスチャンネル",
+    "selectChannel": "ボイスチャンネルを選択...",
+    "categoryLabel": "チャンネル作成先（カテゴリ）",
+    "sameAsTrigger": "トリガーチャンネルと同じ",
+    "nameTemplate": "チャンネル名テンプレート",
+    "preview": "プレビュー",
+    "userLimit": "ユーザー制限",
+    "unlimited": "0 = 無制限",
+    "bitrate": "ビットレート (kbps)",
+    "createSetup": "セットアップ作成",
+    "creating": "作成中...",
+    "noSetups": "トリガーチャンネルがまだ設定されていません。",
+    "noSetupsHint": "「セットアップ追加」をクリックして開始。",
+    "templateVars": "テンプレート変数",
+    "varUser": "ユーザー名",
+    "varCount": "連番",
+    "templateLabel": "テンプレート",
+    "categoryDetailLabel": "カテゴリ",
+    "limitLabel": "制限",
+    "failedCreate": "セットアップの作成に失敗しました",
+    "failedDelete": "セットアップの削除に失敗しました",
+    "failedUpdate": "セットアップの更新に失敗しました"
+  }
+}

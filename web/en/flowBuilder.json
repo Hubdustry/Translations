@@ -1,0 +1,84 @@
+{
+  "categories": {
+    "entry": "Entry",
+    "action": "Action",
+    "condition": "Condition",
+    "control": "Control",
+    "annotation": "Annotation"
+  },
+  "nodes": {
+    "set_variable": "Set Variable",
+    "get_variable": "Get Variable",
+    "try_catch": "Try / Catch",
+    "comment": "Comment",
+    "group": "Group",
+    "http_request": "HTTP Request",
+    "switch_router": "Switch",
+    "loop": "Loop",
+    "transform": "Transform",
+    "sub_flow": "Sub-flow"
+  },
+  "expression": {
+    "placeholder": "Type { to insert a variable",
+    "builtIn": "Built-in Variables",
+    "custom": "Custom Variables",
+    "preview": "Preview"
+  },
+  "errorConfig": {
+    "title": "Error Handling",
+    "retryCount": "Retry Count",
+    "retryDelay": "Retry Delay (ms)",
+    "continueOnFail": "Continue on Failure",
+    "errorBranch": "Error Branch"
+  },
+  "variables": {
+    "title": "Variables",
+    "name": "Variable Name",
+    "value": "Value",
+    "scope": "Scope",
+    "scopeExecution": "This Execution",
+    "scopeServer": "Server (Persistent)",
+    "scopeUser": "User (Persistent)",
+    "scopeChannel": "Channel (Persistent)",
+    "storeAs": "Store As",
+    "maxReached": "Maximum 100 variables per guild"
+  },
+  "annotations": {
+    "note": "Note",
+    "groupLabel": "Group Label",
+    "color": "Color"
+  },
+  "testRunner": {
+    "title": "Test Runner",
+    "mockData": "Mock Data",
+    "addField": "Add Field",
+    "run": "Run Test",
+    "running": "Running...",
+    "steps": "Execution Steps",
+    "status": {
+      "completed": "Completed",
+      "failed": "Failed",
+      "timeout": "Timeout"
+    },
+    "stepStatus": {
+      "success": "Success",
+      "error": "Error",
+      "simulated": "Simulated",
+      "skipped": "Skipped"
+    }
+  },
+  "aiCopilot": {
+    "title": "AI Copilot",
+    "placeholder": "Ask AI to build nodes, /suggest, /explain, /configure...",
+    "suggest": "Suggest next node",
+    "explain": "Explain flow",
+    "configure": "Auto-configure",
+    "generate": "Generate nodes"
+  },
+  "subFlow": {
+    "title": "Select Sub-flow",
+    "search": "Search flows...",
+    "noFlows": "No other flows available",
+    "noMatch": "No flows match your search"
+  }
+}

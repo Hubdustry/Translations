@@ -1,0 +1,84 @@
+{
+  "categories": {
+    "entry": "Đầu vào",
+    "action": "Hành động",
+    "condition": "Điều kiện",
+    "control": "Điều khiển",
+    "annotation": "Ghi chú"
+  },
+  "nodes": {
+    "set_variable": "Đặt Biến",
+    "get_variable": "Lấy Biến",
+    "try_catch": "Thử / Bắt lỗi",
+    "comment": "Ghi chú",
+    "group": "Nhóm",
+    "http_request": "Yêu cầu HTTP",
+    "switch_router": "Chuyển hướng",
+    "loop": "Vòng lặp",
+    "transform": "Biến đổi",
+    "sub_flow": "Luồng con"
+  },
+  "expression": {
+    "placeholder": "Gõ { để chèn biến",
+    "builtIn": "Biến có sẵn",
+    "custom": "Biến tùy chỉnh",
+    "preview": "Xem trước"
+  },
+  "errorConfig": {
+    "title": "Xử lý Lỗi",
+    "retryCount": "Số lần thử lại",
+    "retryDelay": "Độ trễ thử lại (ms)",
+    "continueOnFail": "Tiếp tục khi lỗi",
+    "errorBranch": "Nhánh lỗi"
+  },
+  "variables": {
+    "title": "Biến",
+    "name": "Tên Biến",
+    "value": "Giá trị",
+    "scope": "Phạm vi",
+    "scopeExecution": "Lần thực thi này",
+    "scopeServer": "Server (Lưu trữ)",
+    "scopeUser": "Người dùng (Lưu trữ)",
+    "scopeChannel": "Kênh (Lưu trữ)",
+    "storeAs": "Lưu thành",
+    "maxReached": "Tối đa 100 biến mỗi guild"
+  },
+  "annotations": {
+    "note": "Ghi chú",
+    "groupLabel": "Nhãn Nhóm",
+    "color": "Màu sắc"
+  },
+  "testRunner": {
+    "title": "Trình chạy thử",
+    "mockData": "Dữ liệu giả lập",
+    "addField": "Thêm trường",
+    "run": "Chạy thử",
+    "running": "Đang chạy...",
+    "steps": "Các bước thực thi",
+    "status": {
+      "completed": "Hoàn thành",
+      "failed": "Thất bại",
+      "timeout": "Hết thời gian"
+    },
+    "stepStatus": {
+      "success": "Thành công",
+      "error": "Lỗi",
+      "simulated": "Giả lập",
+      "skipped": "Bỏ qua"
+    }
+  },
+  "aiCopilot": {
+    "title": "AI Trợ lý",
+    "placeholder": "Yêu cầu AI tạo node, /suggest, /explain, /configure...",
+    "suggest": "Gợi ý node tiếp theo",
+    "explain": "Giải thích luồng",
+    "configure": "Tự cấu hình",
+    "generate": "Tạo node"
+  },
+  "subFlow": {
+    "title": "Chọn Luồng con",
+    "search": "Tìm luồng...",
+    "noFlows": "Không có luồng nào khác",
+    "noMatch": "Không có kết quả tìm kiếm"
+  }
+}

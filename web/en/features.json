@@ -1,0 +1,66 @@
+{
+  "welcome": {
+    "title": "Welcome & Goodbye",
+    "desc": "Greet new members with custom messages and auto-assign roles."
+  },
+  "leveling": {
+    "title": "Leveling System",
+    "desc": "Reward active members with XP, levels, and role rewards."
+  },
+  "moderation": {
+    "title": "Moderation",
+    "desc": "Auto-mod, ban, kick, mute, warn — keep your server safe."
+  },
+  "commands": {
+    "title": "Custom Commands",
+    "desc": "Create personalized commands with embeds and actions."
+  },
+  "roles": {
+    "title": "Role Manager",
+    "desc": "Create, edit and organize server roles with colors and permissions."
+  },
+  "tickets": {
+    "title": "Ticket System",
+    "desc": "Professional support tickets for your community."
+  },
+  "flow_builder": {
+    "title": "Flow Builder",
+    "desc": "Visual automation workflows with drag-and-drop — no coding required."
+  },
+  "reaction_roles": {
+    "title": "Reaction Roles",
+    "desc": "Let members pick their own roles with emoji reactions."
+  },
+  "music": {
+    "title": "Music Player",
+    "desc": "Play music from YouTube, Spotify and SoundCloud in voice channels."
+  },
+  "voicemaster": {
+    "title": "VoiceMaster",
+    "desc": "Auto-create temporary voice channels when users join a trigger channel."
+  },
+  "embed_builder": {
+    "title": "Embed Builder",
+    "desc": "Design stunning Discord messages with a visual Components V2 editor."
+  },
+  "activity_log": {
+    "title": "Activity Log",
+    "desc": "Comprehensive event logging — surpasses Discord's audit log."
+  },
+  "translate": {
+    "title": "Translation Portal",
+    "desc": "Manage and translate server content into multiple languages."
+  },
+  "expression": {
+    "title": "Expression",
+    "desc": "Manage server emojis, stickers, and soundboard in one place."
+  },
+  "channels": {
+    "title": "Channel Manager",
+    "desc": "Create, edit, delete and organize Discord channels visually."
+  },
+  "integrations": {
+    "title": "Integrations",
+    "desc": "Manage webhooks, invites, and external channel connections."
+  }
+}

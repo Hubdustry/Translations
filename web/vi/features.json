@@ -1,0 +1,26 @@
+{
+  "commands": {
+    "desc": "Tạo các lệnh cá nhân hóa với embed và hành động.",
+    "title": "Lệnh tùy chỉnh"
+  },
+  "leveling": {
+    "desc": "Thưởng cho thành viên tích cực bằng XP, level, và phần thưởng role.",
+    "title": "Hệ thống Level"
+  },
+  "moderation": {
+    "desc": "Auto-mod, ban, kick, mute, warn — giữ server an toàn.",
+    "title": "Kiểm duyệt"
+  },
+  "roles": {
+    "desc": "Cho phép thành viên chọn role bằng emoji.",
+    "title": "Reaction Roles"
+  },
+  "tickets": {
+    "desc": "Hỗ trợ chuyên nghiệp cho cộng đồng của bạn.",
+    "title": "Hệ thống Ticket"
+  },
+  "welcome": {
+    "desc": "Chào đón thành viên mới với tin nhắn tùy chỉnh và tự động gán role.",
+    "title": "Chào mừng & Tạm biệt"
+  }
+}

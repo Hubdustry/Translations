@@ -1,0 +1,253 @@
+{
+  "addBot": "Thêm Bot",
+  "botActive": "Bot đã kích hoạt",
+  "freePlan": "Gói miễn phí",
+  "goPremium": "Nâng cấp Premium",
+  "manage": "Quản lý",
+  "noServers": "Không tìm thấy máy chủ",
+  "premium": "Premium",
+  "premiumDesc": "Mở khóa tất cả các mô đun và các tính năng Bot tùy chỉnh.",
+  "servers": "Máy chủ của bạn",
+  "serversSubtitle": "Chọn server để quản lý module và cài đặt.",
+  "translate": "Dịch thuật",
+  "upgrade": "Nâng cấp — $7.99/tháng",
+  "plugins": {
+    "title": "Plugins",
+    "subtitle": "Bật, tắt và cấu hình các module mạnh mẽ cho server của bạn.",
+    "searchPlaceholder": "Tìm plugin...",
+    "categories": {
+      "all": "Tất cả Plugin",
+      "moderation": "Kiểm duyệt",
+      "engagement": "Tương tác",
+      "utility": "Tiện ích"
+    },
+    "stats": {
+      "active": "Đang hoạt động",
+      "available": "Khả dụng",
+      "premium": "Premium"
+    },
+    "noResults": "Không tìm thấy plugin phù hợp \"{query}\"",
+    "clearFilters": "Xóa bộ lọc",
+    "new": "MỚI",
+    "modules": {
+      "welcome": {
+        "title": "Chào mừng",
+        "desc": "Chào đón thành viên mới với tin nhắn tùy chỉnh và tự động gán role."
+      },
+      "leveling": {
+        "title": "Level & XP",
+        "desc": "Thưởng cho thành viên tích cực bằng XP, level và phần thưởng role."
+      },
+      "moderation": {
+        "title": "Tự động Kiểm duyệt",
+        "desc": "Tự động phát hiện và xóa spam, raid và nội dung độc hại."
+      },
+      "reaction_roles": {
+        "title": "Reaction Roles",
+        "desc": "Cho phép thành viên tự chọn role bằng cách react vào tin nhắn."
+      },
+      "translate": {
+        "title": "Cổng Dịch Thuật",
+        "desc": "Quản lý và dịch nội dung server sang nhiều ngôn ngữ."
+      },
+      "voicemaster": {
+        "title": "VoiceMaster",
+        "desc": "Tự động tạo kênh thoại tạm khi người dùng tham gia kênh kích hoạt."
+      },
+      "commands": {
+        "title": "Lệnh Tùy Chỉnh",
+        "desc": "Tạo lệnh tùy chỉnh mạnh mẽ với biến và embed."
+      },
+      "music": {
+        "title": "Trình Phát Nhạc",
+        "desc": "Phát nhạc từ YouTube, Spotify và SoundCloud trong kênh thoại."
+      },
+      "tickets": {
+        "title": "Ticket",
+        "desc": "Tạo hệ thống ticket hỗ trợ với danh mục và tự động đóng."
+      }
+    }
+  },
+  "voicemaster": {
+    "title": "VoiceMaster",
+    "subtitle": "Tự động tạo kênh thoại tạm thời",
+    "addSetup": "Thêm Thiết lập",
+    "howItWorks": "Cách hoạt động",
+    "step1": "Tạo một kênh thoại trong server (ví dụ: \"➕ Vào để Tạo\")",
+    "step2": "Chọn nó làm kênh kích hoạt bên dưới",
+    "step3": "Khi người dùng tham gia kênh đó → bot tạo kênh tạm và chuyển họ vào",
+    "step4": "Khi kênh tạm trống → bot tự động xóa nó",
+    "newSetupTitle": "Thiết lập Kênh Kích hoạt Mới",
+    "triggerChannel": "Kênh Thoại Kích hoạt",
+    "selectChannel": "Chọn kênh thoại...",
+    "categoryLabel": "Tạo Kênh Trong (Danh mục)",
+    "sameAsTrigger": "Giống kênh kích hoạt",
+    "nameTemplate": "Mẫu Tên Kênh",
+    "preview": "Xem trước",
+    "userLimit": "Giới hạn Người dùng",
+    "unlimited": "0 = không giới hạn",
+    "bitrate": "Bitrate (kbps)",
+    "createSetup": "Tạo Thiết lập",
+    "creating": "Đang tạo...",
+    "noSetups": "Chưa có kênh kích hoạt nào.",
+    "noSetupsHint": "Nhấn \"Thêm Thiết lập\" để bắt đầu.",
+    "templateVars": "Biến Mẫu",
+    "varUser": "Tên người dùng",
+    "varCount": "Số thứ tự",
+    "templateLabel": "Mẫu",
+    "categoryDetailLabel": "Danh mục",
+    "limitLabel": "Giới hạn",
+    "failedCreate": "Không thể tạo thiết lập",
+    "failedDelete": "Không thể xóa thiết lập",
+    "failedUpdate": "Không thể cập nhật thiết lập"
+  },
+  "tabs": {
+    "overview": "Tổng quan",
+    "analytics": "Phân tích",
+    "activityLog": "Nhật ký hoạt động"
+  },
+  "hero": {
+    "serverDashboard": "Bảng điều khiển Server",
+    "online": "trực tuyến",
+    "members": "thành viên",
+    "pluginsActive": "{count} plugin đang hoạt động",
+    "invite": "Mời",
+    "logs": "Nhật ký",
+    "discord": "Discord",
+    "boostLevel": "Cấp {level}",
+    "noBoost": "Chưa Boost"
+  },
+  "emoji": {
+    "title": "Emoji",
+    "subtitle": "{count} emoji trong server này",
+    "upload": "Tải lên Emoji",
+    "searchPlaceholder": "Tìm emoji...",
+    "noResults": "Không tìm thấy emoji",
+    "empty": "Chưa có emoji tùy chỉnh",
+    "emptyHint": "Tải lên emoji để bắt đầu"
+  },
+  "stickers": {
+    "title": "Nhãn dán",
+    "subtitle": "{count} nhãn dán trong server này",
+    "upload": "Tải lên Nhãn dán",
+    "searchPlaceholder": "Tìm nhãn dán...",
+    "noResults": "Không tìm thấy nhãn dán",
+    "empty": "Chưa có nhãn dán tùy chỉnh",
+    "emptyHint": "Tải lên nhãn dán để bắt đầu"
+  },
+  "soundboard": {
+    "title": "Bảng âm thanh",
+    "subtitle": "{count} âm thanh trong server này",
+    "upload": "Tải lên Âm thanh",
+    "searchPlaceholder": "Tìm âm thanh...",
+    "noResults": "Không tìm thấy âm thanh",
+    "empty": "Chưa có âm thanh tùy chỉnh",
+    "emptyHint": "Tải lên âm thanh để bắt đầu"
+  },
+  "expression": {
+    "tabEmoji": "Emoji",
+    "tabStickers": "Nhãn dán",
+    "tabSoundboard": "Âm thanh"
+  },
+  "logs": {
+    "title": "Nhật ký Server",
+    "subtitle": "Ghi nhật ký sự kiện toàn diện — vượt trội hơn Audit Log của Discord.",
+    "searchPlaceholder": "Tìm nhật ký...",
+    "allEvents": "Tất cả Sự kiện",
+    "totalEvents": "{count} sự kiện",
+    "noEntries": "Không tìm thấy nhật ký nào.",
+    "pageOf": "Trang {page}/{total}",
+    "prev": "Trước",
+    "next": "Sau",
+    "by": "bởi",
+    "events": {
+      "message_edit": "Tin nhắn đã sửa",
+      "message_delete": "Tin nhắn đã xóa",
+      "member_join": "Thành viên tham gia",
+      "member_leave": "Thành viên rời đi",
+      "member_ban": "Thành viên bị cấm",
+      "member_unban": "Bỏ cấm thành viên",
+      "command_used": "Lệnh đã dùng",
+      "voice_join": "Tham gia thoại",
+      "voice_leave": "Rời thoại",
+      "voice_move": "Di chuyển thoại",
+      "role_create": "Tạo role",
+      "role_update": "Cập nhật role",
+      "role_delete": "Xóa role",
+      "role_add": "Thêm role",
+      "role_remove": "Gỡ role",
+      "channel_create": "Tạo kênh",
+      "channel_update": "Cập nhật kênh",
+      "channel_delete": "Xóa kênh",
+      "nickname_change": "Đổi biệt danh"
+    }
+  },
+  "analytics": {
+    "title": "Phân tích",
+    "subtitle": "Thông tin chi tiết server thời gian thực — tốt hơn Discord Developer Portal.",
+    "loadingAnalytics": "Đang tải phân tích...",
+    "noData": "Chưa có dữ liệu phân tích.",
+    "membersToday": "Thành viên hôm nay",
+    "left": "rời đi",
+    "messages": "Tin nhắn",
+    "today": "hôm nay",
+    "commands": "Lệnh",
+    "usedToday": "dùng hôm nay",
+    "voiceJoins": "Tham gia thoại",
+    "memberFlow": "Luồng thành viên",
+    "joinsVsLeaves": "Tham gia vs Rời đi",
+    "messageActivity": "Hoạt động tin nhắn",
+    "messagesPerDay": "Tin nhắn mỗi ngày",
+    "commandUsage": "Sử dụng lệnh",
+    "commandsPerDay": "Lệnh mỗi ngày",
+    "topCommands": "Lệnh hàng đầu",
+    "mostUsed": "Được dùng nhiều nhất trong {days} ngày qua",
+    "noCommandsUsed": "Chưa có lệnh nào được dùng",
+    "uses": "lần dùng",
+    "moderationCases": "{count} Vụ kiểm duyệt",
+    "moderationDesc": "Tổng cảnh báo, cấm và kick đã ghi nhận",
+    "totalMembers": "Tổng thành viên",
+    "joined": "tham gia",
+    "messagesLabel": "tin nhắn",
+    "executed": "đã thực hiện",
+    "memberGrowth": "Tăng trưởng thành viên",
+    "memberGrowthSub": "Tham gia vs Rời đi · 7 ngày",
+    "viewFullLog": "Xem nhật ký đầy đủ",
+    "activityLog": "Nhật ký hoạt động",
+    "events": "{count} sự kiện",
+    "noActivity": "Chưa có hoạt động nào."
+  },
+  "overview": {
+    "quickStats": "Thống kê nhanh",
+    "activePlugins": "Plugin đang hoạt động",
+    "viewAll": "Xem tất cả",
+    "enabledOf": "{enabled}/{total}",
+    "noPlugins": "Chưa có plugin nào được bật.",
+    "serverHealth": "Sức khỏe Server",
+    "recentActivity": "Hoạt động gần đây",
+    "members": "Thành viên",
+    "messages": "Tin nhắn",
+    "commands": "Lệnh",
+    "today": "hôm nay",
+    "memberFlow": "Luồng thành viên",
+    "joinsVsLeaves": "Tham gia vs Rời đi · 7 ngày",
+    "joins": "Tham gia",
+    "leaves": "Rời đi",
+    "topCommands": "Lệnh hàng đầu",
+    "liveActivity": "Hoạt động trực tiếp",
+    "noActivityYet": "Chưa có hoạt động. Sự kiện sẽ hiện ở đây khi bot hoạt động.",
+    "managePlugins": "Quản lý Plugin",
+    "enableSome": "Chưa có plugin hoạt động. Bật một số →"
+  },
+  "error": {
+    "title": "Đã xảy ra lỗi",
+    "description": "Đã xảy ra lỗi không mong muốn khi tải bảng điều khiển. Vui lòng thử lại.",
+    "errorId": "Mã lỗi: {id}",
+    "tryAgain": "Thử lại"
+  },
+  "notFound": {
+    "title": "Không tìm thấy server",
+    "description": "Server này không tồn tại hoặc bạn không có quyền truy cập.",
+    "backToServers": "Quay lại danh sách server"
+  }
+}

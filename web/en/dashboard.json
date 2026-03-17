@@ -1,0 +1,808 @@
+{
+  "servers": "Your Servers",
+  "serversSubtitle": "Select a server to manage its modules and settings.",
+  "botActive": "Bot Active",
+  "addBot": "Add Bot",
+  "manage": "Manage",
+  "noServers": "No servers found",
+  "premium": "Premium",
+  "freePlan": "Free Plan",
+  "goPremium": "Go Premium",
+  "premiumDesc": "Unlock all modules and Custom Bot features.",
+  "upgrade": "Upgrade — $7.99/mo",
+  "translate": "Translate",
+  "plugins": {
+    "title": "Plugins",
+    "subtitle": "Enable, disable, and configure powerful modules for your server.",
+    "searchPlaceholder": "Search plugins...",
+    "categories": {
+      "all": "All Plugins",
+      "moderation": "Moderation",
+      "engagement": "Engagement",
+      "utility": "Utility"
+    },
+    "stats": {
+      "active": "Active",
+      "available": "Available",
+      "premium": "Premium"
+    },
+    "noResults": "No plugins found matching \"{query}\"",
+    "clearFilters": "Clear filters",
+    "new": "NEW",
+    "modules": {
+      "welcome": {
+        "title": "Welcome",
+        "desc": "Greet new members with customizable messages and assign roles."
+      },
+      "leveling": {
+        "title": "Levels & XP",
+        "desc": "Reward active members with XP, levels and role rewards."
+      },
+      "moderation": {
+        "title": "Auto Moderator",
+        "desc": "Automatically detect and remove spam, raids and toxic content."
+      },
+      "reaction_roles": {
+        "title": "Reaction Roles",
+        "desc": "Let users self-assign roles by reacting to a message."
+      },
+      "translate": {
+        "title": "Translation Portal",
+        "desc": "Manage and translate server content into multiple languages."
+      },
+      "voicemaster": {
+        "title": "VoiceMaster",
+        "desc": "Auto-create temporary voice channels when users join a trigger channel."
+      },
+      "commands": {
+        "title": "Custom Commands",
+        "desc": "Create powerful custom commands with variables and embeds."
+      },
+      "music": {
+        "title": "Music Player",
+        "desc": "Play music from YouTube, Spotify and SoundCloud in voice channels."
+      },
+      "tickets": {
+        "title": "Tickets",
+        "desc": "Create a support ticket system with categories and auto-close."
+      },
+      "expression": {
+        "title": "Expression",
+        "desc": "Manage server emojis, stickers, and soundboard in one place."
+      },
+      "activity_log": {
+        "title": "Activity Log",
+        "desc": "Comprehensive event logging — surpasses Discord's audit log."
+      },
+      "embed_builder": {
+        "title": "Embed Builder",
+        "desc": "Design stunning Discord messages with a visual Components V2 editor."
+      },
+      "channels": {
+        "title": "Channel Manager",
+        "desc": "Create, edit, delete and organize Discord channels from a visual dashboard."
+      },
+      "roles": {
+        "title": "Role Manager",
+        "desc": "Create, edit and organize server roles with colors, permissions and hierarchy."
+      },
+      "integrations": {
+        "title": "Integrations",
+        "desc": "Manage webhooks, invites, and external channel connections."
+      },
+      "flow_builder": {
+        "title": "Flow Builder",
+        "desc": "Design visual automation workflows with a drag-and-drop node editor."
+      },
+      "economy": {
+        "title": "Economy",
+        "desc": "Virtual currency system with daily rewards, shops, and leaderboards."
+      },
+      "starboard": {
+        "title": "Starboard",
+        "desc": "Highlight popular messages — when enough people react, it gets pinned to a starboard channel."
+      },
+      "giveaway": {
+        "title": "Giveaways",
+        "desc": "Create and manage giveaways with customizable duration, winners, and requirements."
+      },
+      "automod": {
+        "title": "AutoMod",
+        "desc": "Automatically filter spam, slurs, links, and other unwanted content."
+      },
+      "suggestions": {
+        "title": "Suggestions",
+        "desc": "Let members submit and vote on ideas for your community."
+      },
+      "logging": {
+        "title": "Server Logging",
+        "desc": "Log message edits, deletes, joins, leaves, bans, and more to a designated channel."
+      },
+      "counting": {
+        "title": "Counting",
+        "desc": "A fun counting game where members take turns counting in order."
+      },
+      "auto_responder": {
+        "title": "Auto Responder",
+        "desc": "Automatically reply to messages containing specific words or patterns."
+      },
+      "birthday": {
+        "title": "Birthdays",
+        "desc": "Track member birthdays and send automated celebration messages."
+      },
+      "invite_tracker": {
+        "title": "Invite Tracker",
+        "desc": "Track who invited whom and how many members each invite link brought."
+      },
+      "scheduled_messages": {
+        "title": "Scheduled Messages",
+        "desc": "Schedule messages to be sent at specific times or on recurring intervals."
+      },
+      "anti_raid": {
+        "title": "Anti-Raid",
+        "desc": "Detect and prevent mass-join raids with automatic lockdown and verification."
+      },
+      "tags": {
+        "title": "Tags / FAQ",
+        "desc": "Create reusable text snippets for frequently asked questions."
+      },
+      "verification": {
+        "title": "Verification",
+        "desc": "Require new members to verify before accessing the server."
+      },
+      "polls": {
+        "title": "Polls",
+        "desc": "Create interactive polls with multiple choices and real-time results."
+      },
+      "bump_reminder": {
+        "title": "Bump Reminder",
+        "desc": "Remind members to bump your server on listing sites like Disboard."
+      },
+      "server_stats": {
+        "title": "Server Stats",
+        "desc": "Display live server statistics in voice channel names."
+      },
+      "modmail": {
+        "title": "Modmail",
+        "desc": "Private messaging system between members and moderators."
+      },
+      "role_menu": {
+        "title": "Role Menu",
+        "desc": "Interactive dropdown menus for members to self-assign roles."
+      },
+      "confessions": {
+        "title": "Confessions",
+        "desc": "Allow members to submit anonymous messages to a designated channel."
+      },
+      "temp_roles": {
+        "title": "Temp Roles",
+        "desc": "Assign roles that automatically expire after a set duration."
+      },
+      "highlights": {
+        "title": "Highlights",
+        "desc": "Get notified when specific keywords are mentioned in the server."
+      },
+      "social_alerts": {
+        "title": "Social Alerts",
+        "desc": "Get notified when creators go live on Twitch, YouTube, or other platforms."
+      },
+      "reaction_pins": {
+        "title": "Reaction Pins",
+        "desc": "Automatically pin messages when they reach a certain number of reactions."
+      },
+      "afk": {
+        "title": "AFK System",
+        "desc": "Set yourself as AFK and automatically notify people who mention you."
+      },
+      "sticky": {
+        "title": "Sticky Messages",
+        "desc": "Pin a message to the bottom of a channel — it re-sends after each new message."
+      },
+      "reputation": {
+        "title": "Reputation",
+        "desc": "Let members give and receive reputation points to recognize helpful contributions."
+      },
+      "reminders": {
+        "title": "Reminders",
+        "desc": "Set personal or server-wide reminders that trigger at specific times."
+      },
+      "auto_thread": {
+        "title": "Auto-Thread",
+        "desc": "Automatically create a thread for every new message in selected channels."
+      },
+      "media_only": {
+        "title": "Media-Only",
+        "desc": "Restrict channels to only allow messages with images, videos, or attachments."
+      },
+      "nick_guard": {
+        "title": "Nickname Guard",
+        "desc": "Automatically filter and reset inappropriate or hoisted nicknames."
+      },
+      "anti_link": {
+        "title": "Anti-Link",
+        "desc": "Block Discord invite links and external URLs with configurable whitelists."
+      },
+      "server_rules": {
+        "title": "Server Rules",
+        "desc": "Display and manage server rules with an interactive acceptance system."
+      },
+      "boost_roles": {
+        "title": "Boost Roles",
+        "desc": "Automatically assign special roles to server boosters."
+      },
+      "auto_slowmode": {
+        "title": "Auto Slowmode",
+        "desc": "Dynamically adjust channel slowmode based on message volume."
+      }
+    },
+    "dialog": {
+      "enableTitle": "Enable the {title} plugin?",
+      "disableTitle": "Disable the {title} plugin?",
+      "enableDesc": "This plugin will be activated for your server. You can configure it after enabling.",
+      "disableDesc": "This plugin will be deactivated. Your settings will be saved for later.",
+      "enable": "Enable",
+      "disable": "Disable"
+    }
+  },
+  "tabs": {
+    "overview": "Overview",
+    "analytics": "Analytics",
+    "activityLog": "Activity Log"
+  },
+  "hero": {
+    "serverDashboard": "Server Dashboard",
+    "online": "online",
+    "members": "members",
+    "pluginsActive": "{count} plugins active",
+    "invite": "Invite",
+    "logs": "Logs",
+    "discord": "Discord",
+    "boostLevel": "Level {level}",
+    "noBoost": "No Boost"
+  },
+  "emoji": {
+    "title": "Emoji",
+    "subtitle": "{count} emoji in this server",
+    "upload": "Upload Emoji",
+    "searchPlaceholder": "Search emoji...",
+    "noResults": "No emoji found",
+    "empty": "No custom emoji yet",
+    "emptyHint": "Upload emoji to get started"
+  },
+  "stickers": {
+    "title": "Stickers",
+    "subtitle": "{count} stickers in this server",
+    "upload": "Upload Sticker",
+    "searchPlaceholder": "Search stickers...",
+    "noResults": "No stickers found",
+    "empty": "No custom stickers yet",
+    "emptyHint": "Upload stickers to get started"
+  },
+  "soundboard": {
+    "title": "Soundboard",
+    "subtitle": "{count} sounds in this server",
+    "upload": "Upload Sound",
+    "searchPlaceholder": "Search sounds...",
+    "noResults": "No sounds found",
+    "empty": "No custom sounds yet",
+    "emptyHint": "Upload sounds to get started"
+  },
+  "expression": {
+    "tabEmoji": "Emoji",
+    "tabStickers": "Stickers",
+    "tabSoundboard": "Soundboard"
+  },
+  "logs": {
+    "title": "Server Logs",
+    "subtitle": "Comprehensive event logging — surpasses Discord's audit log.",
+    "searchPlaceholder": "Search logs...",
+    "allEvents": "All Events",
+    "totalEvents": "{count} total events",
+    "noEntries": "No log entries found.",
+    "pageOf": "Page {page} of {total}",
+    "prev": "Prev",
+    "next": "Next",
+    "by": "by",
+    "events": {
+      "message_edit": "Message Edited",
+      "message_delete": "Message Deleted",
+      "member_join": "Member Joined",
+      "member_leave": "Member Left",
+      "member_ban": "Member Banned",
+      "member_unban": "Member Unbanned",
+      "command_used": "Command Used",
+      "voice_join": "Voice Join",
+      "voice_leave": "Voice Leave",
+      "voice_move": "Voice Move",
+      "role_create": "Role Created",
+      "role_update": "Role Updated",
+      "role_delete": "Role Deleted",
+      "role_add": "Role Added",
+      "role_remove": "Role Removed",
+      "channel_create": "Channel Created",
+      "channel_update": "Channel Updated",
+      "channel_delete": "Channel Deleted",
+      "nickname_change": "Nickname Changed"
+    }
+  },
+  "analytics": {
+    "title": "Analytics",
+    "subtitle": "Real-time server insights — better than Discord Developer Portal.",
+    "loadingAnalytics": "Loading analytics...",
+    "noData": "No analytics data available yet.",
+    "membersToday": "Members Today",
+    "left": "left",
+    "messages": "Messages",
+    "today": "today",
+    "commands": "Commands",
+    "usedToday": "used today",
+    "voiceJoins": "Voice Joins",
+    "memberFlow": "Member Flow",
+    "joinsVsLeaves": "Joins vs Leaves",
+    "messageActivity": "Message Activity",
+    "messagesPerDay": "Messages per day",
+    "commandUsage": "Command Usage",
+    "commandsPerDay": "Commands per day",
+    "topCommands": "Top Commands",
+    "mostUsed": "Most used in the last {days} days",
+    "noCommandsUsed": "No commands used yet",
+    "uses": "uses",
+    "moderationCases": "{count} Moderation Cases",
+    "moderationDesc": "Total warnings, bans, and kicks on record",
+    "totalMembers": "Total Members",
+    "joined": "joined",
+    "messagesLabel": "messages",
+    "executed": "executed",
+    "memberGrowth": "Member Growth",
+    "memberGrowthSub": "Joins vs Leaves · 7 day trend",
+    "viewFullLog": "View Full Activity Log",
+    "activityLog": "Activity Log",
+    "events": "{count} events",
+    "noActivity": "No activity recorded yet.",
+    "insights": {
+      "tabs": {
+        "overview": "Overview",
+        "growth": "Growth",
+        "engagement": "Engagement",
+        "audience": "Audience",
+        "embeds": "Embeds"
+      },
+      "metrics": {
+        "members": "Members",
+        "totalMembers": "Total Members",
+        "messages": "Messages",
+        "voiceJoins": "Voice Joins",
+        "netGrowth": "Net Growth",
+        "newJoins": "New Joins",
+        "leaves": "Leaves",
+        "communicators": "Communicators",
+        "peakOnline": "Peak Online",
+        "activeUsers": "Active Users",
+        "activeHours": "Active Hours"
+      },
+      "charts": {
+        "memberFlow": "Member Flow",
+        "memberFlowDesc": "Joins vs Leaves over time",
+        "memberTimeline": "Membership Timeline",
+        "memberTimelineDesc": "Cumulative member count over time",
+        "memberFlowBar": "Member Flow",
+        "memberFlowBarDesc": "Joins vs leaves per period",
+        "messageActivity": "Message Activity",
+        "messageActivityDesc": "Messages sent per period",
+        "voiceActivity": "Voice Activity",
+        "voiceActivityDesc": "Voice joins per period",
+        "joins": "Joins",
+        "leavesLine": "Leaves",
+        "membersLine": "Members"
+      },
+      "audience": {
+        "deviceUsage": "Device Usage",
+        "deviceUsageDesc": "How members access Discord",
+        "accountAge": "Account Age",
+        "accountAgeDesc": "Age of accounts joining the server",
+        "noAudienceData": "No audience data yet",
+        "noAudienceDataDesc": "Audience demographics will populate as members join and interact with the server.",
+        "failedToLoad": "Failed to load audience data",
+        "noDeviceData": "No device data yet",
+        "noAccountAgeData": "No account age data yet"
+      },
+      "embeds": {
+        "title": "Embed Send Analytics",
+        "subtitle": "Track how your embeds are being sent across channels.",
+        "totalSends": "Total Sends",
+        "today": "Today",
+        "thisWeek": "This Week",
+        "channels": "Channels",
+        "dailySends": "Daily Embed Sends",
+        "sendsPerDay": "Sends per day",
+        "sendMethod": "Send Method",
+        "byDeliveryType": "Breakdown by delivery type",
+        "bot": "Bot",
+        "webhook": "Webhook",
+        "scheduled": "Scheduled",
+        "loadingEmbeds": "Loading embed analytics…",
+        "noEmbedData": "No embed data available yet.",
+        "days": "{count} days"
+      },
+      "channels": {
+        "topText": "Top Text Channels",
+        "topTextDesc": "Ranked by message volume",
+        "topVoice": "Top Voice Channels",
+        "topVoiceDesc": "Ranked by voice minutes",
+        "minutes": "Minutes"
+      },
+      "common": {
+        "exportCsv": "Export CSV",
+        "failedToLoadChart": "Failed to load chart data",
+        "noDataYet": "No data yet",
+        "noDataYetDesc": "Data will appear after events are collected",
+        "comparePrevious": "Compare to previous period"
+      },
+      "datePicker": {
+        "last7d": "7d",
+        "last14d": "14d",
+        "last30d": "30d",
+        "last90d": "90d",
+        "custom": "Custom",
+        "from": "From",
+        "to": "To",
+        "apply": "Apply"
+      }
+    }
+  },
+  "overview": {
+    "quickStats": "Quick Stats",
+    "activePlugins": "Active Plugins",
+    "viewAll": "View All",
+    "enabledOf": "{enabled} of {total}",
+    "noPlugins": "No plugins enabled yet.",
+    "serverHealth": "Server Health",
+    "recentActivity": "Recent Activity",
+    "members": "Members",
+    "messages": "Messages",
+    "commands": "Commands",
+    "today": "today",
+    "memberFlow": "Member Flow",
+    "joinsVsLeaves": "Joins vs Leaves · 7 days",
+    "joins": "Joins",
+    "leaves": "Leaves",
+    "topCommands": "Top Commands",
+    "liveActivity": "Live Activity",
+    "noActivityYet": "No activity yet. Events appear here once the bot is active.",
+    "managePlugins": "Manage Plugins",
+    "enableSome": "No plugins active. Enable some →"
+  },
+  "error": {
+    "title": "Something went wrong",
+    "description": "An unexpected error occurred while loading the dashboard. Please try again.",
+    "errorId": "Error ID: {id}",
+    "tryAgain": "Try again"
+  },
+  "notFound": {
+    "title": "Guild not found",
+    "description": "This server doesn't exist or you don't have access to it.",
+    "backToServers": "Back to servers"
+  },
+  "voicemaster": {
+    "title": "VoiceMaster",
+    "subtitle": "Auto-create temporary voice channels",
+    "addSetup": "Add Setup",
+    "howItWorks": "How it works",
+    "step1": "Create a voice channel in your server (e.g., \"➕ Join to Create\")",
+    "step2": "Select it as a trigger channel below",
+    "step3": "When users join that channel → bot creates a temp channel and moves them in",
+    "step4": "When the temp channel is empty → bot auto-deletes it",
+    "newSetupTitle": "New Trigger Channel Setup",
+    "triggerChannel": "Trigger Voice Channel",
+    "selectChannel": "Select a voice channel...",
+    "categoryLabel": "Create Channels In (Category)",
+    "sameAsTrigger": "Same as trigger channel",
+    "nameTemplate": "Channel Name Template",
+    "preview": "Preview",
+    "userLimit": "User Limit",
+    "unlimited": "0 = unlimited",
+    "bitrate": "Bitrate (kbps)",
+    "createSetup": "Create Setup",
+    "creating": "Creating...",
+    "noSetups": "No trigger channels set up yet.",
+    "noSetupsHint": "Click \"Add Setup\" to get started.",
+    "templateVars": "Template Variables",
+    "varUser": "Username",
+    "varCount": "Sequential number",
+    "templateLabel": "Template",
+    "categoryDetailLabel": "Category",
+    "limitLabel": "Limit",
+    "failedCreate": "Failed to create setup",
+    "failedDelete": "Failed to delete setup",
+    "failedUpdate": "Failed to update setup"
+  },
+  "levels": {
+    "title": "Levels & XP",
+    "premium": "Premium",
+    "saving": "Saving...",
+    "save": "Save",
+    "settingsTab": "Settings",
+    "leaderboardTab": "Leaderboard",
+    "xpSettings": "XP Settings",
+    "minXp": "Min XP per message",
+    "maxXp": "Max XP per message",
+    "cooldown": "Cooldown (seconds)",
+    "xpMultiplier": "XP Multiplier",
+    "xpRequired": "XP required per level",
+    "announcements": "Level-Up Announcements",
+    "channel": "Channel",
+    "announcePlaceholder": "Announce in current channel if empty...",
+    "announceHint": "Leave empty to announce in the channel where the user leveled up",
+    "message": "Message",
+    "variables": "Variables:",
+    "roleRewards": "Role Rewards",
+    "addReward": "Add Reward",
+    "stackRewards": "Stack rewards (keep previous roles when leveling up)",
+    "noRewards": "No role rewards configured. Add one to reward members for leveling up.",
+    "xpExample": "XP Progress Example",
+    "level": "Level",
+    "next": "Next",
+    "addRoleReward": "Add Role Reward",
+    "levelRequired": "Level Required",
+    "requiresXp": "Requires {xp} total XP",
+    "role": "Role",
+    "selectRole": "Select a role...",
+    "cancel": "Cancel",
+    "settingsSaved": "Level settings saved",
+    "rewardExists": "A reward already exists for this level",
+    "enabled": "Leveling enabled",
+    "disabled": "Leveling disabled",
+    "failedSave": "Failed to save",
+    "failedToggle": "Failed to toggle",
+    "varUser": "Member mention",
+    "varUsername": "Username",
+    "varLevel": "New level",
+    "varServer": "Server name",
+    "leaderboard": {
+      "title": "Leaderboard",
+      "totalMembers": "Total Members",
+      "totalXP": "Total XP",
+      "highestLevel": "Highest Level",
+      "activeToday": "Active Today",
+      "searchPlaceholder": "Search...",
+      "empty": "No members found",
+      "messages": "msgs",
+      "membersTotal": "{count, plural, one {# member total} other {# members total}}"
+    }
+  },
+  "economy": {
+    "title": "Economy",
+    "subtitle": "Configure currency, earnings, and view the leaderboard",
+    "tabs": {
+      "settings": "Settings",
+      "leaderboard": "Leaderboard"
+    },
+    "groups": {
+      "general": "General",
+      "earning": "Earning",
+      "transfers": "Transfers",
+      "gambling": "Gambling",
+      "robbery": "Robbery"
+    },
+    "fields": {
+      "economyEnabled": "Economy Enabled",
+      "economyEnabledDesc": "Enable or disable all economy commands for this server",
+      "currencyName": "Currency Name",
+      "currencyEmoji": "Currency Emoji",
+      "dailyAmount": "Daily Amount",
+      "dailyStreakBonus": "Daily Streak Bonus",
+      "workMinimum": "Work Minimum",
+      "workMaximum": "Work Maximum",
+      "workCooldown": "Work Cooldown",
+      "startingBalance": "Starting Balance",
+      "transferTax": "Transfer Tax",
+      "maxBet": "Max Bet",
+      "gamblingCooldown": "Gambling Cooldown",
+      "robberyEnabled": "Robbery Enabled",
+      "robberyEnabledDesc": "Allow users to rob each other",
+      "successChance": "Success Chance",
+      "maxSteal": "Max Steal",
+      "robCooldown": "Rob Cooldown"
+    },
+    "suffixes": {
+      "seconds": "seconds",
+      "percent": "%",
+      "percentOfCash": "% of target's cash"
+    },
+    "saveChanges": "Save Changes",
+    "failedToSave": "Failed to save. Please try again.",
+    "settingsSaved": "Settings saved successfully!",
+    "leaderboard": {
+      "noRankings": "No Rankings Yet",
+      "noRankingsDesc": "No one has earned any currency yet. Members can get started with /daily or /work.",
+      "rank": "Rank",
+      "user": "User",
+      "balance": "Balance",
+      "page": "Page {page}",
+      "previous": "Previous",
+      "next": "Next"
+    }
+  },
+  "autoSlowmode": {
+    "title": "Auto Slowmode",
+    "backToPlugins": "Back to Plugins",
+    "rateThresholds": "Rate Thresholds",
+    "messageThreshold": "Message Threshold",
+    "timeWindow": "Time Window",
+    "slowmodeDelay": "Slowmode Delay",
+    "maxSlowmode": "Max Slowmode",
+    "scaling": "Progressive Scaling",
+    "scalingDesc": "Increase slowmode with message volume",
+    "monitoredChannels": "Monitored Channels",
+    "addChannel": "Add Channel",
+    "channelLabel": "Channel",
+    "selectChannel": "Select a channel...",
+    "noChannels": "No channels monitored",
+    "saveSettings": "Save Settings",
+    "saving": "Saving...",
+    "notEnabled": "Auto-Slowmode is not enabled",
+    "enableMessage": "Enable it from the Plugins page to configure these settings.",
+    "goToPlugins": "Go to Plugins",
+    "seconds": "seconds",
+    "messages": "messages"
+  },
+  "moderation": {
+    "title": "Moderation",
+    "subtitle": "Manage members, bans, and server safety",
+    "tabs": {
+      "actions": "Quick Actions",
+      "bans": "Ban List",
+      "members": "Members",
+      "automod": "AutoMod",
+      "settings": "Settings",
+      "cases": "Mod Cases"
+    },
+    "actions": {
+      "kick": "Kick Member",
+      "kickDesc": "Remove a member — they can rejoin with an invite",
+      "kickBtn": "Kick",
+      "ban": "Ban Member",
+      "banDesc": "Permanently ban — cannot rejoin unless unbanned",
+      "banBtn": "Ban",
+      "timeout": "Timeout Member",
+      "timeoutDesc": "Temporarily mute — no messages or voice",
+      "timeoutBtn": "Timeout",
+      "removeTimeout": "Remove Timeout",
+      "prune": "Prune Inactive",
+      "pruneDesc": "Remove members who haven't been active",
+      "previewCount": "Preview Count",
+      "pruneMembers": "Prune Members",
+      "inactiveFor": "Inactive for at least",
+      "days": "days"
+    },
+    "deleteMessages": "Delete messages:",
+    "none": "None",
+    "duration": "Duration",
+    "dryRun": "Dry run",
+    "dryRunDesc": "Preview count without pruning",
+    "userIdPlaceholder": "User ID",
+    "reasonPlaceholder": "Reason (optional)",
+    "search": "Search",
+    "searchPlaceholder": "Search by username or ID...",
+    "searchMembersPlaceholder": "Search by username or nickname...",
+    "username": "Username",
+    "userId": "User ID",
+    "reason": "Reason",
+    "action": "Action",
+    "actions_label": "Actions",
+    "nickname": "Nickname",
+    "roles": "Roles",
+    "joined": "Joined",
+    "unban": "Unban",
+    "noMembersFound": "No members found",
+    "loadMembers": "Click search or press Enter to load members",
+    "noBansSearch": "No bans matching search",
+    "noBans": "No banned users",
+    "automodRules": "Auto-Moderation Rules",
+    "addRule": "Add Rule",
+    "noAutomodRules": "No auto-moderation rules configured",
+    "addRuleHint": "Click \"Add Rule\" to get started",
+    "modLogChannel": "Mod Log Channel",
+    "modLogChannelDesc": "All moderation actions will be logged to this channel.",
+    "dmNotifications": "DM Notifications",
+    "dmOnWarn": "DM on Warn",
+    "dmOnWarnDesc": "Notify user when warned",
+    "dmOnBan": "DM on Ban",
+    "dmOnBanDesc": "Notify user when banned",
+    "dmOnKick": "DM on Kick",
+    "dmOnKickDesc": "Notify user when kicked",
+    "dmOnTimeout": "DM on Timeout",
+    "dmOnTimeoutDesc": "Notify user when timed out",
+    "warningAutoAction": "Warning Auto-Action",
+    "actionWhenThreshold": "Action when threshold reached",
+    "warningThreshold": "Warning threshold",
+    "warnings": "warnings",
+    "warnActionNone": "None",
+    "warnActionKick": "Kick",
+    "warnActionBan": "Ban",
+    "warnActionTimeout": "Timeout",
+    "logPurgeActions": "Log Purge Actions",
+    "logPurgeActionsDesc": "Create mod case when messages are purged",
+    "saveSettings": "Save Settings",
+    "saving": "Saving...",
+    "failedToLoad": "Failed to load settings.",
+    "retry": "Retry",
+    "moderator": "Moderator",
+    "date": "Date",
+    "del": "Del",
+    "cases": {
+      "all": "All",
+      "noCases": "No moderation cases yet",
+      "noCasesFiltered": "No cases matching filters",
+      "filterByUser": "Filter by User ID..."
+    },
+    "automodDialog": {
+      "title": "Create AutoMod Rule",
+      "ruleName": "Rule Name",
+      "triggerType": "Trigger Type",
+      "keywords": "Keywords (comma-separated)",
+      "createRule": "Create Rule"
+    },
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "livePreview": "Live Preview"
+  },
+  "settings": {
+    "failedToLoad": "Failed to load settings. Please try again.",
+    "none": "None",
+    "dashboardAccess": "Dashboard Access",
+    "dashboardAccessDesc": "If no roles are selected, only the Server Owner and users with Administrator permission can access the dashboard.",
+    "botName": "Hubdustry Bot",
+    "previewTime": "Today at 2:30 PM",
+    "settingsUpdated": "Settings Updated",
+    "language": "Language",
+    "timezone": "Timezone"
+  },
+  "channels": {
+    "title": "Channel Manager",
+    "loginRequired": "Please log in to manage channels.",
+    "aiGenerate": "AI Generate",
+    "templates": "Templates",
+    "createChannel": "Create Channel",
+    "channelsSidebar": "Channels",
+    "searchPlaceholder": "Search channels...",
+    "allTypes": "All Types",
+    "text": "Text",
+    "voice": "Voice",
+    "category": "Category",
+    "announcement": "Announcement",
+    "forum": "Forum",
+    "selected": "selected",
+    "selectAll": "Select All",
+    "clear": "Clear",
+    "moveTo": "Move to...",
+    "noCategory": "No Category",
+    "nsfw": "NSFW",
+    "delete": "Delete",
+    "noChannels": "No channels",
+    "clone": "Clone",
+    "selectChannel": "Select a channel",
+    "selectChannelDesc": "Click on a channel from the tree to view details",
+    "channelName": "Channel Name",
+    "topic": "Topic",
+    "nsfwChannel": "NSFW Channel",
+    "slowmode": "Slowmode (seconds)",
+    "saving": "Saving...",
+    "saveChanges": "Save Changes",
+    "createDialog": {
+      "title": "Create Channel",
+      "channelName": "Channel Name",
+      "type": "Type",
+      "textChannel": "Text Channel",
+      "voiceChannel": "Voice Channel",
+      "categoryType": "Category",
+      "announcementChannel": "Announcement Channel",
+      "forumChannel": "Forum Channel",
+      "categoryOptional": "Category (optional)",
+      "noCategory": "No Category",
+      "cancel": "Cancel",
+      "creating": "Creating...",
+      "create": "Create"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "welcome": {
+    "title": "Welcome & Goodbye",
+    "desc": "Greet new members with custom messages and auto-assign roles."
+  },
+  "leveling": {
+    "title": "Leveling System",
+    "desc": "Reward active members with XP, levels, and role rewards."
+  },
+  "moderation": {
+    "title": "Moderation",
+    "desc": "Auto-mod, ban, kick, mute, warn — keep your server safe."
+  },
+  "commands": {
+    "title": "Custom Commands",
+    "desc": "Create personalized commands with embeds and actions."
+  },
+  "roles": {
+    "title": "Reaction Roles",
+    "desc": "Let members pick their own roles with emoji reactions."
+  },
+  "tickets": {
+    "title": "Ticket System",
+    "desc": "Professional support tickets for your community."
+  }
+}
