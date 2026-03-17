@@ -539,6 +539,36 @@
             "effect": "Effect:",
             "mode_247": "24/7 Mode:",
             "footer": "Stats for this server"
+        },
+        "radio": {
+            "music_unavailable": "Music system is not available. Lavalink may not be connected.",
+            "not_in_vc": "You need to be in a voice channel to use radio!",
+            "join_failed": "Failed to join voice channel: %v",
+            "play_failed": "Failed to play station: %v",
+            "random_title": "Random Radio",
+            "now_playing_title": "Now Playing Radio",
+            "station_not_found": "Station `%s` not found."
+        },
+        "stop": {
+            "music_unavailable": "Music system is not available.",
+            "nothing_playing": "Nothing is currently playing.",
+            "failed": "Failed to stop playback: %v",
+            "success": "Playback stopped and disconnected."
+        },
+        "volume": {
+            "music_unavailable": "Music system is not available.",
+            "nothing_playing": "Nothing is currently playing.",
+            "current": "Current volume: **%d%%**",
+            "failed": "Failed to set volume: %v",
+            "set": "Volume set to **%d%%**"
+        },
+        "nowplaying": {
+            "music_unavailable": "Music system is not available.",
+            "nothing": "Nothing is currently playing. Use `/radio play` to start listening!",
+            "title": "Now Playing",
+            "source": "Source",
+            "name": "Name",
+            "volume_field": "Volume"
         }
     }
 }
