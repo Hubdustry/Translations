@@ -364,5 +364,114 @@
         "milestone": "**%d!** Milestone reached! Keep going!",
         "ruined": "<@%s> ruined it at **%d**! The next number was **%d**. Count resets to **0**.",
         "wrong": "Wrong number! The next number is **%d**."
+    },
+    "birthday": {
+        "server_only": "This command can only be used in a server.",
+        "db_unavailable": "Database unavailable.",
+        "set": {
+            "invalid_date": "Invalid date. Please enter a valid month and day.",
+            "error": "Failed to save birthday.",
+            "success": "Birthday set to **%s %d**!"
+        },
+        "view": {
+            "not_set": "**%s** hasn't set their birthday yet.",
+            "title": "%s's Birthday",
+            "date_field": "Date",
+            "countdown_field": "Countdown",
+            "today": "Today!",
+            "tomorrow": "Tomorrow!",
+            "days_away": "%d days away"
+        },
+        "upcoming": {
+            "title": "Upcoming Birthdays",
+            "error": "Failed to fetch birthdays.",
+            "empty": "No birthdays have been set in this server yet.",
+            "today": "**TODAY!**",
+            "tomorrow": "(tomorrow)",
+            "days": "(%d days)"
+        },
+        "remove": {
+            "error": "Failed to remove birthday.",
+            "success": "Birthday removed."
+        },
+        "announce": "Happy Birthday <@%s>!"
+    },
+    "confessions": {
+        "server_only": "This command can only be used in a server.",
+        "not_setup": "Confessions are not set up in this server.",
+        "cooldown": "You can send another confession %s.",
+        "too_long": "Confession is too long (max 2000 characters).",
+        "error": "Failed to save confession.",
+        "sent": "Your confession has been submitted anonymously!",
+        "sent_review": "Your confession has been submitted for review!",
+        "embed_title": "Anonymous Confession #%d",
+        "review_title": "Confession #%d — Pending Review",
+        "approved": "Confession #%d approved!",
+        "rejected": "Confession #%d rejected."
+    },
+    "highlights": {
+        "server_only": "This command can only be used in a server.",
+        "add": {
+            "too_short": "Keyword must be at least 2 characters.",
+            "max_reached": "You can track up to 25 keywords.",
+            "duplicate": "You're already tracking **%s**.",
+            "success": "Now tracking **%s**. You'll be DM'd when it's mentioned.",
+            "error": "Failed to save keyword."
+        },
+        "remove": {
+            "not_found": "You're not tracking **%s**.",
+            "success": "Stopped tracking **%s**.",
+            "error": "Failed to remove keyword."
+        },
+        "list": {
+            "title": "Your Highlights",
+            "empty": "You're not tracking any keywords. Use `/highlight add` to start!",
+            "footer": "%d keyword(s)"
+        },
+        "clear": {
+            "success": "All highlights cleared.",
+            "error": "Failed to clear highlights."
+        },
+        "dm_title": "Highlight: \"%s\"",
+        "dm_desc": "Your keyword **%s** was mentioned in <#%s> by **%s**"
+    },
+    "info": {
+        "server": {
+            "not_found": "Guild not found in cache.",
+            "owner": "Owner",
+            "members": "Members",
+            "boosts": "Boosts",
+            "channels": "Channels",
+            "channels_desc": "\ud83d\udcac %d Text \u2022 \ud83d\udd0a %d Voice \u2022 \ud83d\udcc1 %d Categories",
+            "roles": "Roles",
+            "verification": "Verification",
+            "created": "Created"
+        },
+        "user": {
+            "id": "ID",
+            "bot": "Bot",
+            "created": "Created",
+            "joined": "Joined Server",
+            "roles": "Roles (%d)",
+            "nickname": "Nickname",
+            "boosting": "Boosting Since",
+            "timed_out": "Timed Out Until",
+            "yes": "Yes",
+            "no": "No"
+        },
+        "avatar": {
+            "title": "%s's Avatar"
+        }
+    },
+    "profile": {
+        "error": "Failed to build profile.",
+        "level": "Level",
+        "xp": "XP",
+        "rank": "Rank",
+        "coins": "Coins",
+        "joined": "Joined",
+        "created": "Created",
+        "roles": "Roles",
+        "key_perms": "Key Permissions"
     }
 }
