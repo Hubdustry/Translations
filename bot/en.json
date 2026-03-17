@@ -296,5 +296,73 @@
             "db_unavailable": "Database unavailable.",
             "footer": "Total votes: %d"
         }
+    },
+    "giveaway": {
+        "server_only": "This command can only be used in a server.",
+        "no_subcommand": "Please use a subcommand: `/giveaway create`, `/giveaway end`, `/giveaway reroll`, `/giveaway list`",
+        "header": "GIVEAWAY",
+        "header_ended": "GIVEAWAY ENDED",
+        "enter_button": "Enter Giveaway",
+        "create": {
+            "embed_desc": "React with the button below to enter!\n\n**Entries:** %d\n**Winners:** %d\n**Hosted by:** <@%s>\n**Ends:** <t:%d:R>",
+            "footer": "Giveaway ID: %d | Ends at",
+            "invalid_duration": "Invalid duration. Examples: `30m`, `1h`, `1d`, `2d12h`",
+            "max_duration": "Maximum giveaway duration is 30 days.",
+            "error": "Failed to create giveaway.",
+            "send_error": "Failed to send giveaway message: %v",
+            "success": "Giveaway **#%d** created! Prize: **%s** — ends <t:%d:R>"
+        },
+        "end": {
+            "no_entries": "No valid entries — no winners.",
+            "winners": "Winner(s): %s",
+            "footer": "%d winner(s) | Ended",
+            "congrats": "Congratulations %s! You won **%s**!",
+            "not_found": "Giveaway not found.",
+            "already_ended": "This giveaway has already ended.",
+            "success": "Giveaway **#%d** ended!"
+        },
+        "reroll": {
+            "not_found": "Giveaway not found.",
+            "not_ended": "This giveaway hasn't ended yet. Use `/giveaway end` first.",
+            "fetch_error": "Failed to fetch entries.",
+            "no_entries": "No entries to reroll from.",
+            "announce": "**Rerolled!** New winner(s): %s — **%s**!",
+            "success": "Giveaway **#%d** rerolled! New winners: %s"
+        },
+        "list": {
+            "title": "Giveaways",
+            "entry": "**#%d** — %s\n  %s | %d entries | %d winner(s)",
+            "status_active": "Ends <t:%d:R>",
+            "status_ended": "Ended",
+            "empty": "No giveaways found in this server.",
+            "error": "Failed to fetch giveaways."
+        },
+        "button": {
+            "invalid": "Invalid giveaway.",
+            "not_found": "Giveaway not found.",
+            "already_ended": "This giveaway has already ended.",
+            "enter_error": "Failed to enter giveaway.",
+            "entered": "You've entered the giveaway for **%s**! (%d total entries)"
+        }
+    },
+    "afk": {
+        "server_only": "This command can only be used in a server.",
+        "set": "**%s** is now AFK: %s",
+        "welcome_back": "Welcome back, **%s**! Your AFK status has been removed.",
+        "mention": "**%s** is AFK: %s (%s ago)",
+        "duration_just_now": "just now"
+    },
+    "counting": {
+        "server_only": "This command can only be used in a server.",
+        "not_setup": "Counting game is not set up in this server. Enable it from the dashboard!",
+        "title": "Counting Game",
+        "channel": "Channel",
+        "current_count": "Current Count",
+        "high_score": "High Score",
+        "next_number": "Next Number",
+        "same_user": "<@%s>, you can't count twice in a row! The count resets to **0**.",
+        "milestone": "**%d!** Milestone reached! Keep going!",
+        "ruined": "<@%s> ruined it at **%d**! The next number was **%d**. Count resets to **0**.",
+        "wrong": "Wrong number! The next number is **%d**."
     }
 }
