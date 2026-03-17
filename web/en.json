@@ -238,6 +238,146 @@
         "flow_builder": {
           "title": "Flow Builder",
           "desc": "Design visual automation workflows with a drag-and-drop node editor."
+        },
+        "economy": {
+          "title": "Economy",
+          "desc": "Virtual currency system with daily rewards, shops, and leaderboards."
+        },
+        "starboard": {
+          "title": "Starboard",
+          "desc": "Highlight popular messages — when enough people react, it gets pinned to a starboard channel."
+        },
+        "giveaway": {
+          "title": "Giveaways",
+          "desc": "Create and manage giveaways with customizable duration, winners, and requirements."
+        },
+        "automod": {
+          "title": "AutoMod",
+          "desc": "Automatically filter spam, slurs, links, and other unwanted content."
+        },
+        "suggestions": {
+          "title": "Suggestions",
+          "desc": "Let members submit and vote on ideas for your community."
+        },
+        "logging": {
+          "title": "Server Logging",
+          "desc": "Log message edits, deletes, joins, leaves, bans, and more to a designated channel."
+        },
+        "counting": {
+          "title": "Counting",
+          "desc": "A fun counting game where members take turns counting in order."
+        },
+        "auto_responder": {
+          "title": "Auto Responder",
+          "desc": "Automatically reply to messages containing specific words or patterns."
+        },
+        "birthday": {
+          "title": "Birthdays",
+          "desc": "Track member birthdays and send automated celebration messages."
+        },
+        "invite_tracker": {
+          "title": "Invite Tracker",
+          "desc": "Track who invited whom and how many members each invite link brought."
+        },
+        "scheduled_messages": {
+          "title": "Scheduled Messages",
+          "desc": "Schedule messages to be sent at specific times or on recurring intervals."
+        },
+        "anti_raid": {
+          "title": "Anti-Raid",
+          "desc": "Detect and prevent mass-join raids with automatic lockdown and verification."
+        },
+        "tags": {
+          "title": "Tags / FAQ",
+          "desc": "Create reusable text snippets for frequently asked questions."
+        },
+        "verification": {
+          "title": "Verification",
+          "desc": "Require new members to verify before accessing the server."
+        },
+        "polls": {
+          "title": "Polls",
+          "desc": "Create interactive polls with multiple choices and real-time results."
+        },
+        "bump_reminder": {
+          "title": "Bump Reminder",
+          "desc": "Remind members to bump your server on listing sites like Disboard."
+        },
+        "server_stats": {
+          "title": "Server Stats",
+          "desc": "Display live server statistics in voice channel names."
+        },
+        "modmail": {
+          "title": "Modmail",
+          "desc": "Private messaging system between members and moderators."
+        },
+        "role_menu": {
+          "title": "Role Menu",
+          "desc": "Interactive dropdown menus for members to self-assign roles."
+        },
+        "confessions": {
+          "title": "Confessions",
+          "desc": "Allow members to submit anonymous messages to a designated channel."
+        },
+        "temp_roles": {
+          "title": "Temp Roles",
+          "desc": "Assign roles that automatically expire after a set duration."
+        },
+        "highlights": {
+          "title": "Highlights",
+          "desc": "Get notified when specific keywords are mentioned in the server."
+        },
+        "social_alerts": {
+          "title": "Social Alerts",
+          "desc": "Get notified when creators go live on Twitch, YouTube, or other platforms."
+        },
+        "reaction_pins": {
+          "title": "Reaction Pins",
+          "desc": "Automatically pin messages when they reach a certain number of reactions."
+        },
+        "afk": {
+          "title": "AFK System",
+          "desc": "Set yourself as AFK and automatically notify people who mention you."
+        },
+        "sticky": {
+          "title": "Sticky Messages",
+          "desc": "Pin a message to the bottom of a channel — it re-sends after each new message."
+        },
+        "reputation": {
+          "title": "Reputation",
+          "desc": "Let members give and receive reputation points to recognize helpful contributions."
+        },
+        "reminders": {
+          "title": "Reminders",
+          "desc": "Set personal or server-wide reminders that trigger at specific times."
+        },
+        "auto_thread": {
+          "title": "Auto-Thread",
+          "desc": "Automatically create a thread for every new message in selected channels."
+        },
+        "media_only": {
+          "title": "Media-Only",
+          "desc": "Restrict channels to only allow messages with images, videos, or attachments."
+        },
+        "nick_guard": {
+          "title": "Nickname Guard",
+          "desc": "Automatically filter and reset inappropriate or hoisted nicknames."
+        },
+        "anti_link": {
+          "title": "Anti-Link",
+          "desc": "Block Discord invite links and external URLs with configurable whitelists."
+        },
+        "server_rules": {
+          "title": "Server Rules",
+          "desc": "Display and manage server rules with an interactive acceptance system."
+        },
+        "boost_roles": {
+          "title": "Boost Roles",
+          "desc": "Automatically assign special roles to server boosters."
+        },
+        "auto_slowmode": {
+          "title": "Auto Slowmode",
+          "desc": "Dynamically adjust channel slowmode based on message volume."
         }
       }
     },
