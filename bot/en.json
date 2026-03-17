@@ -154,5 +154,37 @@
             "latency": "Latency: %dms",
             "api": "API: %dms"
         }
+    },
+    "games": {
+        "server_only": "This command can only be used in a server.",
+        "coinflip": {
+            "won": "Coin Flip — You Won!",
+            "lost": "Coin Flip — You Lost!",
+            "description": "You chose **%s** — it landed on **%s**!\n\n💰 Bet: ⚡ %d\n%s"
+        },
+        "slots": {
+            "no_match": "Slots — No Match",
+            "jackpot": "Slots — JACKPOT! 🎉",
+            "winner": "Slots — Winner!",
+            "description": "**[ %s ]**\n\n💰 Bet: ⚡ %d\n%s"
+        },
+        "blackjack": {
+            "blackjack": "Blackjack — BLACKJACK! 🎉",
+            "won": "Blackjack — You Won!",
+            "lost": "Blackjack — You Lost!",
+            "push": "Blackjack — Push",
+            "description": "**Your Hand** (%v): %v\n**Dealer** (%v): %v\n\n💰 Bet: ⚡ %d\n%s"
+        },
+        "roulette": {
+            "miss": "Roulette — Miss!",
+            "winner": "Roulette — Winner!",
+            "straight_hit": "Roulette — STRAIGHT HIT! 🎉",
+            "description": "%s\n\n💰 Bet: ⚡ %d | %s: %s\n%s"
+        },
+        "payout": {
+            "won": "Won: ⚡ **%d** (%.1fx)",
+            "push": "Push — bet returned",
+            "lost": "Lost: ⚡ **%d**"
+        }
     }
 }
