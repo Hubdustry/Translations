@@ -570,5 +570,43 @@
             "name": "Name",
             "volume_field": "Volume"
         }
+    },
+    "modmail": {
+        "new_title": "New Modmail",
+        "from": "From:",
+        "user_id": "User ID:",
+        "message_field": "Message",
+        "opened_title": "Modmail Opened",
+        "default_open_msg": "Your message has been received by **%s** staff. They will respond here shortly.",
+        "attachments": "Attachments",
+        "staff_suffix": "(Staff)",
+        "closed_title": "Modmail Closed",
+        "default_close_msg": "Your modmail has been closed. If you need further help, send another message.",
+        "closed_footer": "Closed by %s",
+        "closed_thread_desc": "Closed by %s",
+        "server_only": "This command can only be used in a server.",
+        "not_thread": "This is not a modmail thread.",
+        "closed_success": "Modmail closed.",
+        "not_configured": "Modmail is not configured. Set it up in the dashboard.",
+        "status_title": "Modmail Status",
+        "staff_channel": "Staff Channel",
+        "open_threads": "Open Threads"
+    },
+    "lockdown": {
+        "server_only": "This command can only be used in a server.",
+        "already_locked": "Server is already locked down. Use `/lockdown disable` to unlock.",
+        "no_reason": "No reason provided",
+        "fetch_failed": "Failed to fetch channels.",
+        "locked_title": "Server Locked Down",
+        "locked_desc": "Locked %d channels.\nReason: %s\n\nUse `/lockdown disable` to unlock.",
+        "not_locked": "Server is not currently locked down.",
+        "unlocked_title": "Server Unlocked",
+        "unlocked_desc": "Restored %d channels.",
+        "status_locked": "Server is **locked down**. %d channels affected.",
+        "status_unlocked": "Server is **not locked down**.",
+        "raid_alert": "**Raid Alert!** %d members joined in %d seconds. Consider running `/lockdown enable`."
+    },
+    "anti_link": {
+        "default_warning": "%s, links are not allowed in this channel."
     }
 }
