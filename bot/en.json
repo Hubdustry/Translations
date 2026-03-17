@@ -213,5 +213,88 @@
             "title": "<@%d>'s Inventory",
             "empty": "Inventory is empty!"
         }
+    },
+    "premium": {
+        "gems": {
+            "title": "Gem Wallet",
+            "description": "**Balance:** %d 💎\n**Total Purchased:** %d 💎\n**Total Spent:** %d 💎",
+            "footer": "Use /buy-gems to purchase more gems!",
+            "unavailable": "Gem system is not configured."
+        },
+        "status": {
+            "title": "Premium Status",
+            "no_sub": "You don't have an active premium subscription.\n\n**Premium Perks:**\n• 💰 2x rewards on `/daily` and `/work`\n• ⚡ 50%% shorter cooldowns\n• 🏪 Access to exclusive gem-only shop items\n• 🎨 Premium profile badge\n\nVisit the dashboard to subscribe!",
+            "active": "%s **Status:** %s\n📅 **Current Period:** %s → %s\n🔄 **Auto-Renew:** %s\n\n**Your Perks:**\n• 💰 2x rewards on `/daily` and `/work`\n• ⚡ 50%% shorter cooldowns\n• 🏪 Exclusive gem-only shop items\n• 🎨 Premium profile badge",
+            "unavailable": "Billing system is not configured."
+        },
+        "buy_gems": {
+            "title": "Gem Shop",
+            "footer": "All prices in USD • Gems are non-refundable once spent",
+            "cta": "Visit the **Hubdustry Dashboard** to purchase gems!\nPayments are processed securely via Stripe."
+        },
+        "yes": "Yes",
+        "no": "No"
+    },
+    "reputation": {
+        "give": {
+            "title": "Reputation",
+            "description": "%s gave **+1 rep** to %s",
+            "total_rep": "Total Rep",
+            "no_user": "Please specify a user.",
+            "self": "You can't give reputation to yourself!",
+            "bot": "You can't give reputation to bots!",
+            "cooldown": "You can give rep to **%s** again in **%dh %dm**.",
+            "error": "Failed to give reputation."
+        },
+        "check": {
+            "title": "%s's Reputation",
+            "total_rep": "Total Rep",
+            "rank": "Rank",
+            "last_7_days": "Last 7 Days"
+        },
+        "top": {
+            "title": "Reputation Leaderboard",
+            "entry": "%s <@%s> — **%d** rep",
+            "empty": "No reputation data yet. Use `/rep give` to start!",
+            "error": "Failed to fetch leaderboard."
+        }
+    },
+    "reminders": {
+        "set": {
+            "success": "Got it! I'll remind you <t:%d:R>: **%s**",
+            "invalid_duration": "Invalid duration. Examples: `10m`, `1h`, `2d`, `1d12h`",
+            "too_short": "Reminder must be at least 1 minute in the future.",
+            "too_long": "Reminder cannot be more than 30 days in the future.",
+            "unavailable": "Reminders are currently unavailable.",
+            "error": "Failed to set reminder."
+        },
+        "list": {
+            "title": "Your Reminders",
+            "footer": "%d active reminder(s)",
+            "empty": "You have no active reminders. Use `/remind` to set one!",
+            "error": "Failed to fetch reminders.",
+            "unavailable": "Reminders are currently unavailable."
+        },
+        "fire": "<@%s>, reminder: **%s**"
+    },
+    "polls": {
+        "server_only": "This command can only be used in a server.",
+        "create": {
+            "footer": "Poll by %s • React to vote",
+            "anonymous": "Anonymous poll",
+            "success": "Poll created! [Jump to poll](https://discord.com/channels/%s/%s/%s)",
+            "error": "Failed to create poll.",
+            "db_unavailable": "Database unavailable.",
+            "min_options": "You need at least 2 options.",
+            "max_options": "Maximum 10 options allowed.",
+            "invalid_duration": "Invalid duration format. Use 1h, 30m, 1d, etc."
+        },
+        "end": {
+            "title_suffix": "(ENDED)",
+            "success": "Poll ended!",
+            "invalid_id": "Invalid message ID.",
+            "db_unavailable": "Database unavailable.",
+            "footer": "Total votes: %d"
+        }
     }
 }
