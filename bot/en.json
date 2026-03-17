@@ -473,5 +473,72 @@
         "created": "Created",
         "roles": "Roles",
         "key_perms": "Key Permissions"
+    },
+    "music": {
+        "play": {
+            "no_query": "Please provide a search query, e.g. `/music play chill beats`",
+            "not_in_vc": "You need to be in a voice channel to play music!",
+            "search_failed": "Search failed: %v",
+            "no_results": "No results found for: **%s**",
+            "join_failed": "Failed to join voice channel: %v",
+            "play_failed": "Failed to play: %v",
+            "now_playing": "Now Playing",
+            "duration": "Duration",
+            "source": "Source",
+            "source_jamendo": "Jamendo (CC Licensed)",
+            "up_next": "Up Next",
+            "and_more": "...and %d more",
+            "footer": "Requested by %s \u2022 /music skip to skip"
+        },
+        "skip": {
+            "nothing_playing": "Nothing is playing!",
+            "queue_finished": "Queue finished! No more tracks to play.",
+            "failed": "Failed to skip: %v",
+            "title": "Skipped",
+            "now_playing": "Now playing: **%s** \u2014 %s"
+        },
+        "queue": {
+            "empty": "The queue is empty!",
+            "title": "Queue",
+            "now_playing": "Now Playing:",
+            "and_more": "...and **%d** more tracks",
+            "footer": "%d tracks \u2022 %s"
+        },
+        "shuffle": {
+            "empty": "Nothing to shuffle! Queue is empty.",
+            "success": "Shuffled **%d** upcoming tracks!"
+        },
+        "repeat": {
+            "nothing_playing": "Nothing is playing!",
+            "success": "Repeat mode set to: **%s**"
+        },
+        "effects": {
+            "clear_failed": "Failed to clear effects: %v",
+            "cleared_title": "Effects Cleared",
+            "cleared_desc": "All audio effects have been removed.",
+            "unknown": "Unknown effect: `%s`\n\nAvailable effects:\n%s",
+            "apply_failed": "Failed to apply effect: %v",
+            "applied_title": "%s Effect Applied",
+            "applied_footer": "Use /music effects reset to remove"
+        },
+        "twenty_four_seven": {
+            "not_playing": "The bot isn't currently playing anything! Start playback first.",
+            "enabled_title": "24/7 Mode Enabled",
+            "enabled_desc": "The bot will stay connected even when the queue is empty.\nThe bot will remain in the voice channel until you use `/music stop`.",
+            "disabled_title": "24/7 Mode Disabled",
+            "disabled_desc": "The bot will now disconnect when the queue ends."
+        },
+        "stats": {
+            "title": "Music Statistics",
+            "total_sessions": "Total Sessions:",
+            "tracks_played": "Tracks Played:",
+            "total_time": "Total Listening Time:",
+            "minutes": "minutes",
+            "sources": "Sources:",
+            "settings": "Current Settings:",
+            "effect": "Effect:",
+            "mode_247": "24/7 Mode:",
+            "footer": "Stats for this server"
+        }
     }
 }
